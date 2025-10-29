@@ -371,19 +371,17 @@ AI_bootcamp/
 <table>
 <tr>
 <td width="50%" align="center">
-<img src="https://user-images.githubusercontent.com/74038190/235294015-47195d46-c38f-4b96-964d-ac3f99820e40.gif" width="80"/>
-<h4>Google Gemini</h4>
+<h3>🤖 Google Gemini</h3>
 <p>Free AI assistant for everyday homework help</p>
 <a href="https://gemini.google.com">
-<img src="https://img.shields.io/badge/Launch-Gemini-4285F4?style=flat-square" alt="Launch Gemini"/>
+<img src="https://img.shields.io/badge/Launch-Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Launch Gemini"/>
 </a>
 </td>
 <td width="50%" align="center">
-<img src="https://user-images.githubusercontent.com/74038190/235294019-40007353-6219-4ec5-b661-b3c35136dd0b.gif" width="80"/>
-<h4>Gemini AI Studio</h4>
+<h3>⚡ Gemini AI Studio</h3>
 <p>Advanced features with system instructions</p>
 <a href="https://aistudio.google.com">
-<img src="https://img.shields.io/badge/Launch-AI_Studio-4285F4?style=flat-square" alt="Launch AI Studio"/>
+<img src="https://img.shields.io/badge/Launch-AI_Studio-4285F4?style=flat-square&logo=google&logoColor=white" alt="Launch AI Studio"/>
 </a>
 </td>
 </tr>
@@ -393,7 +391,7 @@ AI_bootcamp/
 
 <p>
   <img src="https://img.shields.io/badge/NotebookLM-00BFA5?style=for-the-badge&logo=google&logoColor=white" alt="NotebookLM"/>
-  <img src="https://img.shields.io/badge/Image_Generation-FF6B6B?style=for-the-badge&logo=artifacthub&logoColor=white" alt="Image Generation"/>
+  <img src="https://img.shields.io/badge/Image_Generation-FF6B6B?style=for-the-badge&logo=image&logoColor=white" alt="Image Generation"/>
 </p>
 
 ### Development Tools (For Educators Using Claude Code)
@@ -401,7 +399,7 @@ AI_bootcamp/
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-6441A5?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code"/>
   <img src="https://img.shields.io/badge/Custom_Subagents-4A154B?style=for-the-badge&logo=robot&logoColor=white" alt="Custom Subagents"/>
-  <img src="https://img.shields.io/badge/Automated_Skills-00D9FF?style=for-the-badge&logo=workflow&logoColor=white" alt="Automated Skills"/>
+  <img src="https://img.shields.io/badge/Automated_Skills-00D9FF?style=for-the-badge&logo=git&logoColor=white" alt="Automated Skills"/>
 </p>
 
 </div>

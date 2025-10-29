@@ -328,13 +328,20 @@ prompt-engineering-curriculum/
 │   └── student-examples/
 │
 ├── 📖 resources/                  # Shared reference materials
-│   ├── guides/
-│   ├── templates/
-│   └── libraries/
+│   ├── ai-tool-guides/            # Google Gemini, AI Studio, NotebookLM
+│   ├── subject-specific-guides/   # Math, Science, History, Writing
+│   ├── VIDEO_RESOURCES.md         # Curated video tutorials
+│   ├── glossary.md                # Prompt engineering terminology
+│   └── prompt-library.md          # Template collection
 │
 └── ✅ assessments/                # Evaluation tools and rubrics
-    ├── rubrics/
-    └── examples/
+    ├── gamification/              # Quest-based assessment system
+    ├── META_PROMPT_TUTOR_ASSESSMENT.md
+    ├── STUDENT_QUICK_START_GUIDE.md
+    ├── TEACHER_GUIDE_AND_RUBRIC.md
+    ├── project-rubric.md
+    ├── self-assessment-rubric.md
+    └── skill-checklist.md
 ```
 
 </div>

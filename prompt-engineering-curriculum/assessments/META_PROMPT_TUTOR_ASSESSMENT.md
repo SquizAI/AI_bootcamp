@@ -1,29 +1,61 @@
-# Interactive Meta-Prompt Tutor Assessment
+<div align="center">
+
+# AI-Powered Meta-Prompt Tutor Assessment
+
+[![Grade Levels](https://img.shields.io/badge/Grade%20Levels-7--12-blue?style=for-the-badge&logo=education&logoColor=white)](https://github.com)
+[![Auto-Grading](https://img.shields.io/badge/Auto--Grading-Enabled-green?style=for-the-badge&logo=checkmark&logoColor=white)](https://github.com)
+[![Time Estimate](https://img.shields.io/badge/Time%20Estimate-45--60%20min-orange?style=for-the-badge&logo=clock&logoColor=white)](https://github.com)
+[![Total Points](https://img.shields.io/badge/Total%20Points-100-brightgreen?style=for-the-badge&logo=star&logoColor=white)](https://github.com)
+
+![Prompt Engineering Assessment](https://user-images.githubusercontent.com/76536612/150645507-70e8b8f2-5fdb-4c21-a2d0-bfea98d2e1fd.gif)
+
+</div>
+
+---
 
 ## Overview
-This is an interactive AI tutor that will guide students through a comprehensive prompt engineering assessment. Students will paste this entire meta-prompt into Google Gemini, and it will walk them through creating different types of prompts step-by-step, providing feedback and grading along the way.
+
+This is an **interactive AI tutor** that will guide students through a comprehensive prompt engineering assessment. Students will paste this entire meta-prompt into Google Gemini, and it will walk them through creating different types of prompts step-by-step, providing feedback and grading along the way.
+
+> **What makes this special:** Real-time feedback, personalized rubrics, revision opportunities, and comprehensive performance reporting - all powered by AI!
 
 ---
 
 ## Student Instructions
 
-### How to Use This Assessment:
+<div align="center">
+
+### How to Use This Assessment
+
+</div>
 
 1. **Open Google Gemini** (gemini.google.com)
-2. **Copy the ENTIRE meta-prompt** (everything in the box below)
+2. **Copy the ENTIRE meta-prompt** (everything in the code box below)
 3. **Paste it into Gemini** and press Enter
 4. **Follow the tutor's instructions** step-by-step
 5. **Complete all sections** - the tutor will guide you
 6. **Save your conversation** when finished (take screenshots or copy the chat)
 7. **Submit your conversation** to your teacher
 
-**Time Estimate:** 45-60 minutes
-**Required Materials:** Access to Google Gemini, a notebook or device for notes
-**Prerequisites:** Completion of Class 1 and Class 2 curriculum
+<div align="center">
+
+| Element | Details |
+|:---:|:---|
+| **Time Estimate** | 45-60 minutes |
+| **Materials** | Access to Google Gemini, notebook or device for notes |
+| **Prerequisites** | Completion of Class 1 and Class 2 curriculum |
+
+</div>
 
 ---
 
-## THE META-PROMPT (Copy everything below this line)
+## The Meta-Prompt
+
+<div align="center">
+
+**Copy Everything Below This Line**
+
+</div>
 
 ```
 You are an expert AI tutor specializing in prompt engineering for middle and high school students. Your role is to conduct a comprehensive, step-by-step assessment that tests students' ability to craft effective prompts across multiple categories.
@@ -627,16 +659,16 @@ I learn best through comparisons and real-world analogies, so please incorporate
 
 ---
 
-**YOUR TURN - FINAL CHALLENGE! 🎯**
+**YOUR TURN - FINAL CHALLENGE!**
 
 **This is your chance to demonstrate MASTERY of prompt engineering.**
 
 **Your challenge:** Create ONE comprehensive prompt that combines AT LEAST 4 of these techniques:
-1. ✓ Role-based prompting (with specific modifiers)
-2. ✓ Rich context engineering (all 5 components)
-3. ✓ Multi-step structure OR few-shot examples
-4. ✓ Meaningful constraints (3+)
-5. ✓ Creative or analytical approach (chosen strategically)
+1. Role-based prompting (with specific modifiers)
+2. Rich context engineering (all 5 components)
+3. Multi-step structure OR few-shot examples
+4. Meaningful constraints (3+)
+5. Creative or analytical approach (chosen strategically)
 
 **Requirements:**
 - Choose a real, challenging academic task from [student's subject]
@@ -672,7 +704,7 @@ Handle revision if requested, then proceed to FINAL ASSESSMENT REPORT.
 
 After completing all 7 sections, provide comprehensive final report:
 
-"🎉 **CONGRATULATIONS!** You've completed the Prompt Engineering Assessment! 🎉
+"Congratulations! You've completed the Prompt Engineering Assessment!
 
 Let me calculate your final score and provide your detailed performance report.
 
@@ -840,7 +872,7 @@ Throughout this assessment, you demonstrated [excellent/good/developing] underst
 
 ---
 
-**🎓 Assessment Complete! 🎓**
+**Assessment Complete!**
 
 **Next Steps:**
 1. Take a screenshot or save this entire conversation
@@ -851,7 +883,7 @@ Throughout this assessment, you demonstrated [excellent/good/developing] underst
 
 **Remember:** Prompt engineering is a skill that improves with practice. The more you use these techniques, the more natural they'll become. You're building a superpower that will serve you throughout your education and career!
 
-Great work, and keep learning! 🚀"
+Great work, and keep learning!"
 
 ---
 
@@ -869,25 +901,40 @@ You have now completed your role as the AI Prompt Engineering Tutor. Well done!
 
 ---
 
-## END OF META-PROMPT
+<div align="center">
 
-**That's it!** Everything above (between the code blocks) is what students will copy and paste into Gemini.
+## End of Meta-Prompt
+
+**That's it!** Everything above (in the code box) is what students will copy and paste into Gemini.
+
+</div>
 
 ---
 
 ## For Teachers: What to Expect
 
+<div align="center">
+
+### Assessment Overview & Expectations
+
+</div>
+
 ### Assessment Duration
-- **Average time:** 45-60 minutes
-- **Fast students:** 35-45 minutes
-- **Students who revise extensively:** 60-75 minutes
+
+| Group | Time |
+|:---:|:---|
+| Average Students | 45-60 minutes |
+| Fast Learners | 35-45 minutes |
+| Revision-Focused Students | 60-75 minutes |
 
 ### What Students Will Submit
+
 - Screenshots or copy of their full conversation with the AI tutor
 - Shows all 7 sections with their prompts and scores
 - Includes final performance report with grade
 
 ### What to Look For When Reviewing
+
 1. **Did they complete all 7 sections?**
 2. **Did they take revision opportunities?** (shows growth mindset)
 3. **Did prompts improve from Section 1 to Section 7?** (shows learning)
@@ -895,22 +942,27 @@ You have now completed your role as the AI Prompt Engineering Tutor. Well done!
 5. **Evidence of genuine engagement vs. rushing through?**
 
 ### Grading Options
-**Option 1: Use AI's score directly** (if student clearly engaged authentically)
-**Option 2: Adjust AI's score** based on your review (±5-10 points)
-**Option 3: Use as formative assessment** (completion grade, not performance grade)
-**Option 4: Weighted hybrid** (50% AI score + 50% teacher review)
+
+| Strategy | Approach |
+|:---|:---|
+| **Direct Use** | Use AI's score directly (if student clearly engaged authentically) |
+| **Adjusted** | Adjust AI's score based on your review (±5-10 points) |
+| **Formative** | Use as formative assessment (completion grade, not performance grade) |
+| **Hybrid** | Weighted approach (50% AI score + 50% teacher review) |
 
 ### Red Flags to Watch For
-- ⚠️ Extremely short prompts throughout (not engaging)
-- ⚠️ No revisions attempted (not learning from feedback)
-- ⚠️ Copy-pasted templates without customization
-- ⚠️ Inconsistent quality (possible external help)
+
+- Extremely short prompts throughout (not engaging)
+- No revisions attempted (not learning from feedback)
+- Copy-pasted templates without customization
+- Inconsistent quality (possible external help)
 
 ### Green Flags (Excellent Work)
-- ✅ Prompts show increasing sophistication
-- ✅ Takes at least 2-3 revision opportunities
-- ✅ Capstone prompt demonstrates synthesis
-- ✅ Prompts are personalized to their real academic needs
+
+- Prompts show increasing sophistication
+- Takes at least 2-3 revision opportunities
+- Capstone prompt demonstrates synthesis
+- Prompts are personalized to their real academic needs
 
 ---
 
@@ -919,40 +971,46 @@ You have now completed your role as the AI Prompt Engineering Tutor. Well done!
 This meta-prompt assesses the following curriculum objectives:
 
 ### From Class 1: Foundations
-- ✅ R.C.T.F. Framework (Role, Context, Task, Format)
-- ✅ Role-based prompting with modifiers
-- ✅ Context engineering (5 components)
-- ✅ Academic integrity in AI use
+
+- R.C.T.F. Framework (Role, Context, Task, Format)
+- Role-based prompting with modifiers
+- Context engineering (5 components)
+- Academic integrity in AI use
 
 ### From Class 2: Advanced Techniques
-- ✅ Multi-step (chain-of-thought) prompting
-- ✅ Few-shot prompting with examples
-- ✅ Constraint-based prompting
-- ✅ Strategic technique selection
+
+- Multi-step (chain-of-thought) prompting
+- Few-shot prompting with examples
+- Constraint-based prompting
+- Strategic technique selection
 
 ### Beyond Current Curriculum
-- ✅ Creative vs. analytical thinking modes
-- ✅ Combined technique synthesis
-- ✅ Metacognitive awareness of prompt quality
-- ✅ Self-assessment and revision skills
+
+- Creative vs. analytical thinking modes
+- Combined technique synthesis
+- Metacognitive awareness of prompt quality
+- Self-assessment and revision skills
 
 ---
 
 ## Tips for Implementation
 
 ### Before the Assessment
+
 - Ensure students have completed Classes 1 and 2
 - Review the R.C.T.F. framework as a class
 - Remind students this is a learning assessment (formative)
 - Explain they'll get feedback during the process
 
 ### During the Assessment
+
 - Provide quiet workspace with Gemini access
 - Allow students to reference their notes/templates
 - Circulate to help with technical issues only
 - Remind them to save their work as they go
 
 ### After the Assessment
+
 - Review submissions for authenticity
 - Use results to identify students needing support
 - Celebrate strong examples (with permission)
@@ -962,23 +1020,34 @@ This meta-prompt assesses the following curriculum objectives:
 
 ## Customization Options
 
-### Make it Easier (for struggling students):
+### Make it Easier
+
+For struggling students:
 - Reduce from 7 sections to 5 (remove Creative/Analytical and/or Few-Shot)
 - Lower point values (make rubric more forgiving)
 - Allow them to use templates from class
 - Permit reference materials during assessment
 
-### Make it Harder (for advanced students):
+### Make it Harder
+
+For advanced students:
 - Add time constraints per section
 - Require meta-prompting section (creating prompt that creates prompts)
 - Demand prompt chaining demonstration
 - Require real-world application with proof of results
 
-### Adapt for Different Subjects:
+### Adapt for Different Subjects
+
 - Specify scenarios all from one subject area
 - Create subject-specific versions (all math, all English, etc.)
 - Allow students to choose subject for all scenarios
 
 ---
 
-This meta-prompt is ready to use! Let me know if you'd like any adjustments.
+<div align="center">
+
+**This meta-prompt is ready to use!**
+
+Questions or need adjustments? Reach out to your instructional design team.
+
+</div>

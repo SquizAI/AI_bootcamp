@@ -1,8 +1,25 @@
-# 📘 Teacher Guide: Meta-Prompt Tutor Assessment
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Teacher+Guide+%26+Rubric;Assessment+Framework;Meta-Prompt+Tutor+Evaluation;Professional+Grading+Tools&color=4A90E2&center=true&width=500&height=60)](https://github.com/SquizAI)
+
+</div>
+
+---
+
+<div align="center">
+
+[![For Teachers](https://img.shields.io/badge/FOR-TEACHERS-FF6B6B?style=for-the-badge&logo=book&logoColor=white)](.)
+[![Grading Guide](https://img.shields.io/badge/GRADING-COMPREHENSIVE-4ECDC4?style=for-the-badge&logo=checklist&logoColor=white)](.)
+[![Time Estimate](https://img.shields.io/badge/TIME-45%E2%80%9390%20MIN-FFE66D?style=for-the-badge&logo=clock&logoColor=black)](.)
+
+</div>
+
+---
 
 ## Overview for Teachers
 
 This assessment uses an **AI tutor embedded in a meta-prompt** that students paste into Google Gemini. The AI acts as an interactive tutor that:
+
 - Explains 7 prompt engineering techniques
 - Asks students to create prompts demonstrating each technique
 - Evaluates student work in real-time
@@ -24,28 +41,41 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 6. [Common Student Mistakes](#common-student-mistakes)
 7. [Differentiation Strategies](#differentiation-strategies)
 8. [Interpreting Results](#interpreting-results)
+9. [FAQ for Teachers](#faq-for-teachers)
 
 ---
 
 ## Assessment Logistics
 
+<div align="center">
+
+**Essential Information for Implementation**
+
+</div>
+
 ### Prerequisites
+
 - Students must complete **Class 1** (Foundations + Role-Based Prompting)
 - Students should complete **Class 2** (Advanced Techniques)
 - Students should understand R.C.T.F. framework
 
 ### Time Required
-- **In-class administration:** 90-minute block recommended
-- **Homework option:** 45-75 minutes at home
-- **Fast finishers:** 35-45 minutes
-- **Students who revise extensively:** 60-75 minutes
+
+| Category | Duration |
+|----------|----------|
+| **In-class administration** | 90-minute block recommended |
+| **Homework option** | 45-75 minutes at home |
+| **Fast finishers** | 35-45 minutes |
+| **Extensive revision** | 60-75 minutes |
 
 ### Materials Needed
+
 - Computer or tablet with internet access
 - Google Gemini access (free account)
 - Way to save conversation (screenshots or copy/paste)
 
 ### Setup Instructions
+
 1. Distribute `STUDENT_QUICK_START_GUIDE.md` before assessment day
 2. Review R.C.T.F. framework as a class
 3. Demonstrate how to copy and paste the meta-prompt
@@ -57,6 +87,7 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 ## What Each Section Tests
 
 ### Section 1: Role-Based Prompting (15 points)
+
 **Skill Assessed:** Ability to assign specific expert roles with modifiers to shape AI responses
 
 **Key Components to Look For:**
@@ -72,22 +103,28 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 - Test prep specialists
 
 **Example Strong Response:**
+
 > "Act as a patient 9th grade algebra teacher who specializes in helping students who struggle with word problems..."
 
 **Example Weak Response:**
+
 > "Help me with math"
 
 ---
 
 ### Section 2: Context Engineering (15 points)
+
 **Skill Assessed:** Providing comprehensive background information for personalized AI responses
 
 **Key Components to Look For:**
-1. ✓ Grade/Course Level specified
-2. ✓ Current Understanding stated (what they know)
-3. ✓ Specific Confusion identified (what they don't know)
-4. ✓ Learning Need explained (why they need help)
-5. ✓ Learning Preferences included (optional but strong)
+
+| Component | Description |
+|-----------|-------------|
+| **Grade/Course Level** | Specific academic level specified |
+| **Current Understanding** | What they already know |
+| **Specific Confusion** | What they don't understand |
+| **Learning Need** | Why they need help (timeline, purpose) |
+| **Learning Preferences** | How they learn best (optional but strong) |
 
 **Context Depth Indicators:**
 - **Excellent:** All 5 components, highly specific, shows metacognitive awareness
@@ -96,14 +133,17 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 - **Weak:** 1 or fewer components, very vague
 
 **Example Strong Response:**
+
 > "I'm an 11th grader in AP Biology studying cellular respiration. I understand that glucose breaks down and ATP is produced, and I can label the diagrams of glycolysis and the Krebs cycle. However, I'm confused about why the electron transport chain produces so much more ATP than the other stages—I don't understand the mechanism that makes it more efficient. I have a test Friday and need to explain this process, not just memorize it. I learn best when concepts are explained with analogies to systems I already understand."
 
 **Example Weak Response:**
+
 > "I need help with biology homework"
 
 ---
 
 ### Section 3: Multi-Step (Chain-of-Thought) Prompting (14 points)
+
 **Skill Assessed:** Breaking complex tasks into sequential, logical steps
 
 **Key Components to Look For:**
@@ -118,19 +158,27 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 - **Weak steps:** Repetitive, could be done in any order, vague purposes
 
 **Example Strong Response:**
+
 > "Please help me analyze this historical document using these steps:
+>
 > Step 1: Help me identify the author, audience, and time period (without telling me—ask me questions)
+>
 > Step 2: Guide me in finding the main argument or purpose
+>
 > Step 3: Walk me through identifying bias or perspective
+>
 > Step 4: Help me connect this document to the broader historical context
+>
 > Please pause after each step for me to respond before moving forward."
 
 **Example Weak Response:**
+
 > "Help me with my history assignment in steps"
 
 ---
 
 ### Section 4: Few-Shot Prompting (14 points)
+
 **Skill Assessed:** Teaching AI through 2-4 concrete examples showing desired pattern
 
 **Key Components to Look For:**
@@ -145,6 +193,7 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 - **Weak:** Examples are partial, pattern is unclear, inconsistent format
 
 **Example Strong Response:**
+
 > "I need to create vocabulary study cards with a specific format. Here are 3 examples:
 >
 > Example 1:
@@ -168,11 +217,13 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 > Now create study cards in this exact format for: momentum, equilibrium, and velocity."
 
 **Example Weak Response:**
+
 > "Here's an example: Cat = animal. Now do the same for other words."
 
 ---
 
 ### Section 5: Constraint-Based Prompting (14 points)
+
 **Skill Assessed:** Setting appropriate boundaries and limitations to shape AI responses
 
 **Key Components to Look For:**
@@ -183,13 +234,17 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 - Variety of constraint types (format, scope, style, content)
 
 **Constraint Types:**
-1. **Academic Integrity** - "Don't solve for me, help me understand"
-2. **Format** - "Keep under 200 words" or "Use bullet points only"
-3. **Scope** - "Focus only on..." or "Don't go beyond..."
-4. **Style** - "Explain like I'm in 8th grade" or "No jargon"
-5. **Content** - "Don't include..." or "Avoid discussing..."
+
+| Type | Purpose | Example |
+|------|---------|---------|
+| **Academic Integrity** | Learning focus | "Don't solve for me, help me understand" |
+| **Format** | Output structure | "Keep under 200 words" or "Use bullet points only" |
+| **Scope** | Boundaries | "Focus only on..." or "Don't go beyond..." |
+| **Style** | Tone/language | "Explain like I'm in 8th grade" or "No jargon" |
+| **Content** | What to avoid | "Don't include..." or "Avoid discussing..." |
 
 **Example Strong Response:**
+
 > "I'm working on an essay thesis and need feedback, BUT:
 > - Don't rewrite my thesis—ask questions to help me improve it myself
 > - Focus only on thesis strength, not essay structure yet
@@ -198,11 +253,13 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 > - Don't suggest ideas I haven't thought of—help me develop MY ideas better"
 
 **Example Weak Response:**
+
 > "Help me but don't make it too long"
 
 ---
 
-### Section 6: Creative vs. Analytical Prompting (14 points total: 7 creative + 7 analytical)
+### Section 6: Creative vs. Analytical Prompting (14 points: 7 creative + 7 analytical)
+
 **Skill Assessed:** Understanding difference between divergent and convergent thinking modes
 
 **Creative Prompt Indicators:**
@@ -220,6 +277,7 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 - Uses critical thinking language
 
 **Example Strong CREATIVE Prompt:**
+
 > "Act as a creative writing brainstorming partner. I need to write a science fiction short story for English class. Help me generate ideas by:
 > - Suggesting 6-8 different futuristic technology concepts that could be central to a story
 > - For each tech concept, brainstorm 3 potential conflicts or problems it could create
@@ -228,6 +286,7 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 > I want lots of wild ideas to choose from—don't worry about whether they're practical!"
 
 **Example Strong ANALYTICAL Prompt:**
+
 > "Act as a logic and critical thinking coach. I created this hypothesis for my science fair project: 'Plants grow better when you talk to them.'
 > Please help me analyze this critically by:
 > - Evaluating whether my hypothesis is specific and testable
@@ -239,6 +298,7 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 ---
 
 ### Section 7: Combined Techniques - Capstone (14 points)
+
 **Skill Assessed:** Synthesizing multiple techniques into one sophisticated prompt
 
 **Key Components to Look For:**
@@ -249,6 +309,7 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 - Would produce highly effective learning experience
 
 **Techniques That Should Be Combined:**
+
 1. Role-based prompting
 2. Rich context engineering
 3. Multi-step structure OR few-shot examples
@@ -262,6 +323,7 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 - **Weak:** 2 or fewer elements, no synthesis
 
 **Example Strong Capstone:**
+
 > "Act as an encouraging AP Statistics tutor who specializes in helping students understand concepts, not just formulas (ROLE).
 >
 > I'm a 12th grader preparing for my AP exam. I understand how to calculate standard deviation and can plug numbers into the formula. However, I'm confused about what standard deviation actually MEANS—why does it matter? When I see 'SD = 5' vs 'SD = 15,' I don't know how to interpret the difference or what it tells me about the data. My exam is in 2 weeks and I need conceptual understanding, not just formula memorization (CONTEXT).
@@ -286,55 +348,104 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 
 ### Section 1: Role-Based Prompting
 
-**EXCELLENT (14-15 points):**
+<div align="center">
+
+**Scoring Breakdown**
+
+</div>
+
+**EXCELLENT (14-15 points)**
+
+<div style="background-color: #d4edda; padding: 15px; border-left: 4px solid #28a745; margin: 10px 0;">
+
 > "Act as a patient and Socratic 10th grade chemistry teacher who helps students discover answers through guided questions rather than direct explanations. I'm studying chemical reactions and balancing equations. I understand that atoms can't be created or destroyed, but I'm confused about how to know which coefficients to use when balancing equations—I just guess and check randomly. Can you guide me through developing a systematic approach by asking me questions that help me figure it out myself? Please use the balancing equation: __H2 + __O2 → __H2O as our example."
 
-*Why excellent: Specific role with multiple modifiers, clear context (grade, topic, current knowledge, confusion), specific task, format request, maintains learning*
+**Why excellent:** Specific role with multiple modifiers, clear context (grade, topic, current knowledge, confusion), specific task, format request, maintains learning
 
-**PROFICIENT (11-13 points):**
+</div>
+
+**PROFICIENT (11-13 points)**
+
+<div style="background-color: #cfe2ff; padding: 15px; border-left: 4px solid #0d6efd; margin: 10px 0;">
+
 > "Act as a helpful biology tutor. I'm in 9th grade learning about photosynthesis. I know it's how plants make food, but I don't understand the difference between the light reactions and the dark reactions. Can you explain this in simple terms with an example?"
 
-*Why proficient: Clear role, context present (grade, topic, confusion), specific task, some format request (simple terms, example), could be more sophisticated*
+**Why proficient:** Clear role, context present (grade, topic, confusion), specific task, some format request (simple terms, example), could be more sophisticated
 
-**DEVELOPING (7-10 points):**
+</div>
+
+**DEVELOPING (7-10 points)**
+
+<div style="background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 10px 0;">
+
 > "Be a math teacher. I need help with fractions. I don't understand how to multiply them. Explain it to me."
 
-*Why developing: Basic role (no modifiers), minimal context (subject, vague confusion), task is clear but basic, no format request, not very specific*
+**Why developing:** Basic role (no modifiers), minimal context (subject, vague confusion), task is clear but basic, no format request, not very specific
 
-**NEEDS IMPROVEMENT (4-6 points):**
+</div>
+
+**NEEDS IMPROVEMENT (4-6 points)**
+
+<div style="background-color: #f8d7da; padding: 15px; border-left: 4px solid #dc3545; margin: 10px 0;">
+
 > "Help me understand history homework"
 
-*Why needs improvement: No clear role, no context about level or specific topic, no clear task, no format*
+**Why needs improvement:** No clear role, no context about level or specific topic, no clear task, no format
+
+</div>
 
 ---
 
 ### Section 2: Context Engineering
 
-**EXCELLENT (14-15 points):**
+**EXCELLENT (14-15 points)**
+
+<div style="background-color: #d4edda; padding: 15px; border-left: 4px solid #28a745; margin: 10px 0;">
+
 > "I'm a 12th grader in AP Calculus AB studying derivatives. I understand the power rule and can take derivatives of polynomial functions like x³ + 2x² - 5. I also understand that derivatives represent rate of change or slope of tangent line. However, I'm struggling with the chain rule—I can identify when I need to use it (when functions are nested), but I mess up the execution and don't know which part to differentiate first. I have a quiz on Friday covering chain rule applications and I need to build confidence in the process, not just memorize examples. I learn best when I can see the step-by-step logic of why each step happens, and I like to practice with problems that gradually increase in difficulty."
 
-*Why excellent: All 5 context components (grade/course, current understanding is detailed, specific confusion clearly identified, learning need with timeline, learning preferences), shows metacognitive awareness, very specific*
+**Why excellent:** All 5 context components (grade/course, current understanding is detailed, specific confusion clearly identified, learning need with timeline, learning preferences), shows metacognitive awareness, very specific
 
-**PROFICIENT (11-13 points):**
+</div>
+
+**PROFICIENT (11-13 points)**
+
+<div style="background-color: #cfe2ff; padding: 15px; border-left: 4px solid #0d6efd; margin: 10px 0;">
+
 > "I'm in 10th grade English and we're writing literary analysis essays. I understand that I need a thesis statement and I know it should be arguable. But I'm confused about how to make my thesis sophisticated enough for an A—mine always sound too simple. I have an essay due next week on 'To Kill a Mockingbird' and I need help making my thesis stronger."
 
-*Why proficient: Grade and course present, current knowledge stated, specific confusion identified, learning need with timeline, missing learning preferences but still solid*
+**Why proficient:** Grade and course present, current knowledge stated, specific confusion identified, learning need with timeline, missing learning preferences but still solid
 
-**DEVELOPING (7-10 points):**
+</div>
+
+**DEVELOPING (7-10 points)**
+
+<div style="background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 10px 0;">
+
 > "I'm in 9th grade studying World War 2. I understand the basics but I'm confused about some stuff. I have a test coming up and need help."
 
-*Why developing: Grade and subject present, vague current knowledge, very vague confusion ("some stuff"), learning need present but not specific, not enough detail*
+**Why developing:** Grade and subject present, vague current knowledge, very vague confusion ("some stuff"), learning need present but not specific, not enough detail
 
-**NEEDS IMPROVEMENT (4-6 points):**
+</div>
+
+**NEEDS IMPROVEMENT (4-6 points)**
+
+<div style="background-color: #f8d7da; padding: 15px; border-left: 4px solid #dc3545; margin: 10px 0;">
+
 > "I need help with chemistry. I don't get it."
 
-*Why needs improvement: Subject mentioned but no grade level, no current understanding stated, confusion too vague, no learning need specified*
+**Why needs improvement:** Subject mentioned but no grade level, no current understanding stated, confusion too vague, no learning need specified
+
+</div>
 
 ---
 
 ### Section 3: Multi-Step Prompting
 
-**EXCELLENT (13-14 points):**
+**EXCELLENT (13-14 points)**
+
+<div style="background-color: #d4edda; padding: 15px; border-left: 4px solid #28a745; margin: 10px 0;">
+
 > "I need to write a persuasive essay arguing for a school policy change. Please help me develop this through these steps:
 >
 > Step 1: Guide me through brainstorming 3-4 possible policy changes by asking me questions about problems I notice at school (don't suggest ideas—help me identify my own)
@@ -349,9 +460,14 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 >
 > Please complete one step at a time and wait for my response before proceeding. I want to develop these ideas myself with your guidance."
 
-*Why excellent: 5 clear sequential steps, each step builds on previous, distinct purposes for each, requests progressive work, maintains learning focus, shows sophistication*
+**Why excellent:** 5 clear sequential steps, each step builds on previous, distinct purposes for each, requests progressive work, maintains learning focus, shows sophistication
 
-**PROFICIENT (10-12 points):**
+</div>
+
+**PROFICIENT (10-12 points)**
+
+<div style="background-color: #cfe2ff; padding: 15px; border-left: 4px solid #0d6efd; margin: 10px 0;">
+
 > "Help me solve this physics problem about projectile motion in steps:
 > Step 1: Help me identify the given information and what I need to find
 > Step 2: Guide me in choosing the right equations
@@ -359,27 +475,42 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 > Step 4: Help me solve it
 > Wait for me to respond between steps."
 
-*Why proficient: 4 clear steps, sequential, distinct purposes, requests progressive work, maintains some learning focus, could be more sophisticated*
+**Why proficient:** 4 clear steps, sequential, distinct purposes, requests progressive work, maintains some learning focus, could be more sophisticated
 
-**DEVELOPING (7-9 points):**
+</div>
+
+**DEVELOPING (7-9 points)**
+
+<div style="background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 10px 0;">
+
 > "Please help me with my research paper in these steps:
 > 1. Help me find sources
 > 2. Help me write my outline
 > 3. Help me write the paper
 > Do each step one at a time."
 
-*Why developing: 3 steps present, somewhat sequential, but steps are too broad and vague, doesn't show clear progression, could ask AI to do too much*
+**Why developing:** 3 steps present, somewhat sequential, but steps are too broad and vague, doesn't show clear progression, could ask AI to do too much
 
-**NEEDS IMPROVEMENT (4-6 points):**
+</div>
+
+**NEEDS IMPROVEMENT (4-6 points)**
+
+<div style="background-color: #f8d7da; padding: 15px; border-left: 4px solid #dc3545; margin: 10px 0;">
+
 > "Help me do my homework step by step"
 
-*Why needs improvement: Mentions steps but doesn't define them, no structure, too vague*
+**Why needs improvement:** Mentions steps but doesn't define them, no structure, too vague
+
+</div>
 
 ---
 
 ### Section 4: Few-Shot Prompting
 
-**EXCELLENT (13-14 points):**
+**EXCELLENT (13-14 points)**
+
+<div style="background-color: #d4edda; padding: 15px; border-left: 4px solid #28a745; margin: 10px 0;">
+
 > "I'm creating a study guide for my biology test on cell organelles. I want each organelle to have: name, function, analogy to something in a city, and a sketch description. Here are 3 examples of the format:
 >
 > Example 1:
@@ -402,9 +533,14 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 >
 > Now please create study guide entries in this exact format for: chloroplast, endoplasmic reticulum, and Golgi apparatus."
 
-*Why excellent: Clear context, format explained before examples, 3 complete examples showing consistent pattern, examples demonstrate all components, actual task clearly stated, would produce exactly what student wants*
+**Why excellent:** Clear context, format explained before examples, 3 complete examples showing consistent pattern, examples demonstrate all components, actual task clearly stated, would produce exactly what student wants
 
-**PROFICIENT (10-12 points):**
+</div>
+
+**PROFICIENT (10-12 points)**
+
+<div style="background-color: #cfe2ff; padding: 15px; border-left: 4px solid #0d6efd; margin: 10px 0;">
+
 > "I need to practice solving systems of equations. Here are 2 examples of the format I want:
 >
 > Example 1:
@@ -419,26 +555,41 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 >
 > Create 5 more practice problems like these with solutions and checks."
 
-*Why proficient: Context present, 2 examples (minimum), examples show consistent pattern, examples are complete, task is clear, could use one more example for strength*
+**Why proficient:** Context present, 2 examples (minimum), examples show consistent pattern, examples are complete, task is clear, could use one more example for strength
 
-**DEVELOPING (7-9 points):**
+</div>
+
+**DEVELOPING (7-9 points)**
+
+<div style="background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 10px 0;">
+
 > "Here's an example of what I want:
 > Word: Happy - Feeling good
 > Word: Sad - Feeling bad
 > Now do more words like this."
 
-*Why developing: 2 examples present but very simple, pattern is clear but basic, examples lack detail, format is too simple, could be more sophisticated*
+**Why developing:** 2 examples present but very simple, pattern is clear but basic, examples lack detail, format is too simple, could be more sophisticated
 
-**NEEDS IMPROVEMENT (4-6 points):**
+</div>
+
+**NEEDS IMPROVEMENT (4-6 points)**
+
+<div style="background-color: #f8d7da; padding: 15px; border-left: 4px solid #dc3545; margin: 10px 0;">
+
 > "Here's an example: Dogs are animals. Now give me more examples."
 
-*Why needs improvement: Only 1 example (need 2 minimum), example doesn't show clear pattern, unclear what student wants, no context*
+**Why needs improvement:** Only 1 example (need 2 minimum), example doesn't show clear pattern, unclear what student wants, no context
+
+</div>
 
 ---
 
 ### Section 5: Constraint-Based Prompting
 
-**EXCELLENT (13-14 points):**
+**EXCELLENT (13-14 points)**
+
+<div style="background-color: #d4edda; padding: 15px; border-left: 4px solid #28a745; margin: 10px 0;">
+
 > "Act as a writing coach for my 11th grade English persuasive essay. I want feedback on my introduction paragraph, BUT please follow these guidelines:
 >
 > Academic Integrity:
@@ -463,9 +614,14 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 >
 > Here's my intro paragraph: [student would paste their writing]"
 
-*Why excellent: 5 constraint categories with 2-3 constraints each, academic integrity prioritized, constraints are specific and purposeful, constraints clearly maintain learning while shaping response quality*
+**Why excellent:** 5 constraint categories with 2-3 constraints each, academic integrity prioritized, constraints are specific and purposeful, constraints clearly maintain learning while shaping response quality
 
-**PROFICIENT (10-12 points):**
+</div>
+
+**PROFICIENT (10-12 points)**
+
+<div style="background-color: #cfe2ff; padding: 15px; border-left: 4px solid #0d6efd; margin: 10px 0;">
+
 > "Help me understand photosynthesis but:
 > - Don't just give me definitions—help me understand the process
 > - Keep explanations under 150 words each
@@ -473,23 +629,38 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 > - Don't include information about cellular respiration yet, just photosynthesis
 > I want to understand, not memorize."
 
-*Why proficient: 4-5 constraints present, academic integrity implied, constraints are specific, good variety (content, format, style, learning), could be more sophisticated*
+**Why proficient:** 4-5 constraints present, academic integrity implied, constraints are specific, good variety (content, format, style, learning), could be more sophisticated
 
-**DEVELOPING (7-9 points):**
+</div>
+
+**DEVELOPING (7-9 points)**
+
+<div style="background-color: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; margin: 10px 0;">
+
 > "Help me with my math homework but don't solve it for me. Keep it short and simple. Don't make it too hard to understand."
 
-*Why developing: 3 constraints present, academic integrity included, constraints are somewhat vague ("short," "simple," "too hard"), could be more specific*
+**Why developing:** 3 constraints present, academic integrity included, constraints are somewhat vague ("short," "simple," "too hard"), could be more specific
 
-**NEEDS IMPROVEMENT (4-6 points):**
+</div>
+
+**NEEDS IMPROVEMENT (4-6 points)**
+
+<div style="background-color: #f8d7da; padding: 15px; border-left: 4px solid #dc3545; margin: 10px 0;">
+
 > "Help me but make it easy to understand"
 
-*Why needs improvement: Only 1 vague constraint, no academic integrity focus, not specific, wouldn't meaningfully shape AI response*
+**Why needs improvement:** Only 1 vague constraint, no academic integrity focus, not specific, wouldn't meaningfully shape AI response
+
+</div>
 
 ---
 
 ### Section 6: Creative vs. Analytical Prompting
 
-**EXCELLENT CREATIVE (6-7 points):**
+**EXCELLENT CREATIVE (6-7 points)**
+
+<div style="background-color: #d4edda; padding: 15px; border-left: 4px solid #28a745; margin: 10px 0;">
+
 > "Act as a creative brainstorming partner for my science fair project. I'm interested in environmental science but haven't picked a specific topic yet. Help me explore possibilities by:
 > - Generating 8-10 different environmental issues a high schooler could research
 > - For each issue, suggest 3-4 different experimental approaches I could take
@@ -498,9 +669,14 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 > - Suggest interdisciplinary connections (how environmental science intersects with technology, social justice, economics, etc.)
 > Go wild with ideas—I want quantity and creativity to spark my imagination! No idea is too ambitious at this brainstorming stage."
 
-*Why excellent: Clear creative task (brainstorming), asks for multiple possibilities (8-10 + 3-4 + more), values quantity, encourages wild/creative ideas, divergent thinking language throughout*
+**Why excellent:** Clear creative task (brainstorming), asks for multiple possibilities (8-10 + 3-4 + more), values quantity, encourages wild/creative ideas, divergent thinking language throughout
 
-**EXCELLENT ANALYTICAL (6-7 points):**
+</div>
+
+**EXCELLENT ANALYTICAL (6-7 points)**
+
+<div style="background-color: #d4edda; padding: 15px; border-left: 4px solid #28a745; margin: 10px 0;">
+
 > "Act as a critical thinking coach for my history class. I've written this thesis statement for my essay on the Civil Rights Movement:
 >
 > 'The Civil Rights Movement succeeded because of Martin Luther King Jr.'s leadership, peaceful protests, and media coverage.'
@@ -515,11 +691,14 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 >
 > Help me think like a historian and strengthen my analytical reasoning."
 
-*Why excellent: Clear analytical task (evaluation), asks for judgment and critical thinking, focuses on logical reasoning, uses evaluative language ("assess," "analyze," "judge"), convergent thinking focus*
+**Why excellent:** Clear analytical task (evaluation), asks for judgment and critical thinking, focuses on logical reasoning, uses evaluative language ("assess," "analyze," "judge"), convergent thinking focus
 
----
+</div>
 
-**PROFICIENT CREATIVE (5 points):**
+**PROFICIENT CREATIVE (5 points)**
+
+<div style="background-color: #cfe2ff; padding: 15px; border-left: 4px solid #0d6efd; margin: 10px 0;">
+
 > "I need to write a creative short story for English class about 'a character who discovers a hidden talent.' Help me brainstorm by suggesting:
 > - 5-6 different character types (different ages, backgrounds)
 > - 4-5 different hidden talents they could discover
@@ -527,9 +706,14 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 > - Possible conflicts or obstacles
 > I want lots of options to choose from!"
 
-*Why proficient: Creative task, asks for multiple ideas, wants options, divergent thinking, good but less sophisticated than excellent*
+**Why proficient:** Creative task, asks for multiple ideas, wants options, divergent thinking, good but less sophisticated than excellent
 
-**PROFICIENT ANALYTICAL (5 points):**
+</div>
+
+**PROFICIENT ANALYTICAL (5 points)**
+
+<div style="background-color: #cfe2ff; padding: 15px; border-left: 4px solid #0d6efd; margin: 10px 0;">
+
 > "I'm comparing two different methods for solving quadratic equations: factoring vs. quadratic formula. Help me analyze:
 > - When is each method more efficient?
 > - What are the advantages and disadvantages of each?
@@ -537,17 +721,26 @@ This assessment uses an **AI tutor embedded in a meta-prompt** that students pas
 > - How do I decide which to use on a test?
 > Help me think logically about when to use each approach."
 
-*Why proficient: Analytical task, asks for evaluation/comparison, focuses on logical decision-making, good but less sophisticated than excellent*
+**Why proficient:** Analytical task, asks for evaluation/comparison, focuses on logical decision-making, good but less sophisticated than excellent
+
+</div>
 
 ---
 
 ## Rubric Deep Dive
+
+<div align="center">
+
+**Understanding the Assessment Criteria**
+
+</div>
 
 ### How the AI Evaluates (and How You Should Too)
 
 For each section, the AI uses this rubric. You should verify its assessments using the same criteria:
 
 #### Component Checklist Method
+
 1. **Identify required components** for that section type
 2. **Check each component** - Is it present? Is it detailed or vague? Is it well-executed?
 3. **Assess integration** - Do components work together or feel disconnected?
@@ -556,7 +749,10 @@ For each section, the AI uses this rubric. You should verify its assessments usi
 
 #### Scoring Bands
 
-**13-15 points (Excellent):**
+**13-15 points (Excellent)**
+
+[![Excellence Badge](https://img.shields.io/badge/EXCELLENT-13%2F15-28a745?style=flat-square)](.)
+
 - ALL required components present
 - Components are DETAILED and SPECIFIC
 - Shows SOPHISTICATED understanding
@@ -564,7 +760,10 @@ For each section, the AI uses this rubric. You should verify its assessments usi
 - Would produce HIGHLY EFFECTIVE AI response
 - Little to no improvement needed
 
-**10-12 points (Proficient):**
+**10-12 points (Proficient)**
+
+[![Proficient Badge](https://img.shields.io/badge/PROFICIENT-10%2F12-0d6efd?style=flat-square)](.)
+
 - MOST required components present
 - Components are REASONABLY SPECIFIC
 - Shows SOLID understanding
@@ -572,7 +771,10 @@ For each section, the AI uses this rubric. You should verify its assessments usi
 - Would produce HELPFUL AI response
 - Minor improvements possible
 
-**7-9 points (Developing):**
+**7-9 points (Developing)**
+
+[![Developing Badge](https://img.shields.io/badge/DEVELOPING-7%2F9-ffc107?style=flat-square)](.)
+
 - SOME components present but INCOMPLETE
 - Components are SOMEWHAT VAGUE
 - Shows PARTIAL understanding
@@ -580,7 +782,10 @@ For each section, the AI uses this rubric. You should verify its assessments usi
 - Would produce OKAY but NOT OPTIMAL response
 - Several improvements needed
 
-**4-6 points (Needs Improvement):**
+**4-6 points (Needs Improvement)**
+
+[![Needs Improvement Badge](https://img.shields.io/badge/NEEDS%20IMPROVEMENT-4%2F6-dc3545?style=flat-square)](.)
+
 - FEW required components present
 - Components are VERY VAGUE
 - Shows LIMITED understanding
@@ -588,7 +793,10 @@ For each section, the AI uses this rubric. You should verify its assessments usi
 - Would produce POOR QUALITY response
 - Major improvements needed
 
-**0-3 points (Insufficient):**
+**0-3 points (Insufficient)**
+
+[![Insufficient Badge](https://img.shields.io/badge/INSUFFICIENT-0%2F3-6c757d?style=flat-square)](.)
+
 - MISSING most or all required components
 - UNCLEAR what student wants
 - Shows MINIMAL to NO understanding
@@ -598,24 +806,32 @@ For each section, the AI uses this rubric. You should verify its assessments usi
 
 ## Grading & Verification Process
 
+<div align="center">
+
+**A Structured Approach to Fair Assessment**
+
+</div>
+
 ### Step 1: Review for Authenticity
 
-**Red Flags (Possible Cheating or External Help):**
-- ⚠️ All prompts are extremely sophisticated but student struggled in class
-- ⚠️ Language level significantly above student's usual work
-- ⚠️ Prompts use vocabulary from the meta-prompt itself (copying examples)
-- ⚠️ Identical or near-identical to another student's work
-- ⚠️ Perfect scores on all sections (very rare even for strong students)
-- ⚠️ No revisions attempted despite feedback
-- ⚠️ Sudden jump from weak to excellent prompts mid-assessment
+**Red Flags (Possible Cheating or External Help)**
 
-**Green Flags (Authentic Work):**
-- ✅ Prompts relate to topics student is actually studying
-- ✅ Language matches student's usual level
-- ✅ Shows progression from early to later sections
-- ✅ Takes some revision opportunities
-- ✅ Makes some mistakes but learns from feedback
-- ✅ Scores align with classroom performance
+- All prompts are extremely sophisticated but student struggled in class
+- Language level significantly above student's usual work
+- Prompts use vocabulary from the meta-prompt itself (copying examples)
+- Identical or near-identical to another student's work
+- Perfect scores on all sections (very rare even for strong students)
+- No revisions attempted despite feedback
+- Sudden jump from weak to excellent prompts mid-assessment
+
+**Green Flags (Authentic Work)**
+
+- Prompts relate to topics student is actually studying
+- Language matches student's usual level
+- Shows progression from early to later sections
+- Takes some revision opportunities
+- Makes some mistakes but learns from feedback
+- Scores align with classroom performance
 
 ### Step 2: Verify AI Scoring
 
@@ -641,21 +857,31 @@ The AI is generally accurate, but double-check:
 
 ### Step 3: Calculate Final Grade
 
+<div align="center">
+
+**Choose Your Grading Approach**
+
+</div>
+
 **Option A: Use AI Score Directly (Recommended for Authentic Work)**
+
 - If work appears authentic and AI assessments are reasonable
 - Faster grading process
 - Students received feedback throughout, so surprises are minimal
 
 **Option B: Adjust AI Score (For Questionable Cases)**
+
 - Review each section and adjust scores ±2-5 points as needed
 - Recalculate total
 - Provide written justification for adjustments
 
 **Option C: Weight Rubric (Blend AI + Teacher Assessment)**
+
 - 70% AI score + 30% teacher review = final score
 - Allows for human oversight while leveraging AI efficiency
 
 **Option D: Completion Grade (Formative Assessment)**
+
 - Use as learning experience, not performance assessment
 - Grade on completion and effort (did they finish all sections?)
 - Use results to identify who needs extra support
@@ -672,71 +898,86 @@ Beyond the AI's report, consider adding:
 
 ## Common Student Mistakes
 
-### Section-Specific Mistakes
+<div align="center">
 
-**Role-Based Prompting:**
-- ❌ No role assigned ("Help me with...")
-- ❌ Generic role without modifiers ("Be a teacher")
-- ❌ Role doesn't match task
-- ✅ FIX: "Act as a [specific role] who [modifier 1] and [modifier 2]"
+**Section-Specific Issues and Solutions**
 
-**Context Engineering:**
-- ❌ Missing grade level
-- ❌ "I don't understand [topic]" (not specific enough)
-- ❌ No explanation of what they DO understand
-- ✅ FIX: Include all 5 context components with details
+</div>
 
-**Multi-Step Prompting:**
-- ❌ Steps are vague ("Help me understand")
-- ❌ Steps could be done in any order (not truly sequential)
-- ❌ Asks for everything at once instead of progressively
-- ✅ FIX: Number steps, make each distinct and sequential, request pauses
+### Role-Based Prompting
 
-**Few-Shot Prompting:**
-- ❌ Only 1 example (need minimum 2)
-- ❌ Examples are incomplete or inconsistent
-- ❌ Pattern isn't clear from examples
-- ✅ FIX: Provide 2-3 complete examples showing consistent format
+| Mistake | Example | Fix |
+|---------|---------|-----|
+| **No role assigned** | "Help me with..." | "Act as a [specific role]" |
+| **Generic role** | "Be a teacher" | Add modifiers: "patient," "Socratic," etc. |
+| **Wrong role** | Physics help from historian | Match role to subject/approach |
 
-**Constraint-Based Prompting:**
-- ❌ Only 1-2 constraints
-- ❌ Vague constraints ("make it simple")
-- ❌ No academic integrity constraint
-- ✅ FIX: Include 3-4 specific constraints including academic integrity
+### Context Engineering
 
-**Creative vs. Analytical:**
-- ❌ Confusing the two (analytical prompt for creative task)
-- ❌ Creative prompt uses evaluative language
-- ❌ Analytical prompt asks for brainstorming
-- ✅ FIX: Match thinking mode to task; use appropriate language
+| Mistake | Example | Fix |
+|---------|---------|-----|
+| **Missing grade level** | "I'm confused about biology" | Include "I'm a 10th grader in AP Bio" |
+| **Too vague** | "I don't understand [topic]" | State what you DO know first |
+| **No learning goal** | Context without purpose | Explain why you need help + timeline |
 
-**Capstone (Combined Techniques):**
-- ❌ Lists techniques without integrating them
-- ❌ Includes only 2-3 techniques
-- ❌ Components feel disconnected
-- ✅ FIX: Weave techniques together naturally, include 4-5+ techniques
+### Multi-Step Prompting
+
+| Mistake | Example | Fix |
+|---------|---------|-----|
+| **Vague steps** | "Help me understand" | Number and detail each step |
+| **Non-sequential** | Steps could be any order | Ensure each builds on previous |
+| **Too fast** | "Do everything at once" | Request pauses between steps |
+
+### Few-Shot Prompting
+
+| Mistake | Example | Fix |
+|---------|---------|-----|
+| **Only 1 example** | Single sample given | Provide minimum 2-3 examples |
+| **Incomplete examples** | Partial information shown | Show complete, finished examples |
+| **Unclear pattern** | Examples don't match | Use consistent format across all |
+
+### Constraint-Based Prompting
+
+| Mistake | Example | Fix |
+|---------|---------|-----|
+| **Too vague** | "make it simple" | "Keep under 200 words" |
+| **No integrity focus** | No mention of learning | Add "help me understand, don't solve" |
+| **Only 1-2 constraints** | Minimal limitations | Include 3-4 specific constraints |
+
+### Creative vs. Analytical
+
+| Mistake | Example | Fix |
+|---------|---------|-----|
+| **Confused modes** | "Brainstorm then analyze" | Pick one mode for clarity |
+| **Wrong language** | Creative task with evaluative tone | Match language to thinking mode |
+| **Mixed signals** | "Give me ideas AND tell me best one" | Choose divergent OR convergent |
+
+### Capstone (Combined Techniques)
+
+| Mistake | Example | Fix |
+|---------|---------|-----|
+| **Just listing** | "I use technique 1, 2, 3..." | Weave techniques together |
+| **Only 2-3 techniques** | Limited variety | Include 4-5+ techniques naturally |
+| **Disconnected parts** | Each element separate | Show how elements support each other |
 
 ### Universal Mistakes Across All Sections
 
-**Vagueness:**
-- Problem: "Help me with math"
-- Better: "Help me understand why we multiply by the reciprocal when dividing fractions"
-
-**Missing Academic Integrity:**
-- Problem: "Write me an essay about..."
-- Better: "Help me develop arguments for my essay about... without writing it for me"
-
-**No Specificity:**
-- Problem: "I don't get chemistry"
-- Better: "I understand atomic structure but I'm confused about why some elements are more reactive than others"
-
-**Copying Templates Without Customization:**
-- Problem: Using exact template language from class
-- Better: Adapting template to their actual situation with personal details
+| Issue | Problem | Better |
+|-------|---------|--------|
+| **Vagueness** | "Help me with math" | "Help me understand why we multiply by reciprocal" |
+| **No integrity** | "Write me an essay" | "Help me develop arguments without writing it" |
+| **Lack of specificity** | "I don't get chemistry" | "I understand atoms but not electron reactivity" |
+| **Template copying** | Exact class examples | Adapt template to actual situation |
 
 ---
 
 ## Differentiation Strategies
+
+<div align="center">
+
+**Supporting All Learners**
+
+</div>
 
 ### For Struggling Students
 
@@ -800,29 +1041,50 @@ Beyond the AI's report, consider adding:
 
 ## Interpreting Results
 
+<div align="center">
+
+**Making Sense of Student Performance Data**
+
+</div>
+
 ### Score Range Meanings
 
-**90-100 (A range):**
+**90-100 (A range)**
+
+[![A Range](https://img.shields.io/badge/SCORE-90%2D100-28a745?style=flat-square)](.)
+
 - **What it means:** Student has mastered prompt engineering fundamentals and can apply techniques strategically
 - **Next steps:** Challenge with advanced applications; use as peer tutor; explore meta-prompting
 - **Class performance likely:** Top 10-20% of students
 
-**80-89 (B range):**
+**80-89 (B range)**
+
+[![B Range](https://img.shields.io/badge/SCORE-80%2D89-0d6efd?style=flat-square)](.)
+
 - **What it means:** Student has solid understanding of most techniques with minor gaps
 - **Next steps:** Targeted practice on 1-2 weak areas; encourage more context depth
 - **Class performance likely:** Top 30-50% of students
 
-**70-79 (C range):**
+**70-79 (C range)**
+
+[![C Range](https://img.shields.io/badge/SCORE-70%2D79-ffc107?style=flat-square)](.)
+
 - **What it means:** Student understands basics but struggles with sophistication or integration
 - **Next steps:** Review R.C.T.F. framework; practice with templates; focus on specificity
 - **Class performance likely:** Middle 50% of students
 
-**60-69 (D range):**
+**60-69 (D range)**
+
+[![D Range](https://img.shields.io/badge/SCORE-60%2D69-fd7e14?style=flat-square)](.)
+
 - **What it means:** Student has partial understanding but significant gaps
 - **Next steps:** One-on-one review; return to Class 1 materials; focus on role + context
 - **Class performance likely:** Bottom 20-30% of students
 
-**Below 60 (F range):**
+**Below 60 (F range)**
+
+[![F Range](https://img.shields.io/badge/SCORE-Below%2060-dc3545?style=flat-square)](.)
+
 - **What it means:** Student has not grasped fundamental concepts
 - **Next steps:** Immediate intervention; check if they completed prerequisite classes; may need remediation
 - **Class performance likely:** Bottom 10% or did not genuinely engage with assessment
@@ -873,36 +1135,44 @@ Track these metrics across all students:
 ## FAQ for Teachers
 
 ### "Should I let students use notes and templates?"
+
 **YES.** This is open-note. The goal is demonstrating understanding and application, not memorization. Real-world prompt engineering involves referencing resources.
 
 ### "What if a student's score from the AI seems wrong?"
+
 Review the prompts yourself using the rubric. The AI is generally accurate but can occasionally:
 - Be overly generous with partial attempts
 - Undervalue sophisticated synthesis
 - Miss context-specific nuances
+
 You have final authority to adjust scores ±10 points.
 
 ### "Can students work in pairs?"
+
 **NOT RECOMMENDED.** This is an individual assessment of prompt crafting ability. However, you could:
 - Allow peer consultation during revision opportunities only
 - Have partners review each other's work AFTER assessment (peer feedback activity)
 - Create a separate pair-based project for practice
 
 ### "What if Gemini is down or not working?"
+
 **Backup options:**
 - Reschedule assessment
 - Use a different AI (Claude, ChatGPT) - meta-prompt should work with any
 - Teacher-led version: You play the AI tutor role (time-intensive)
 
 ### "How do I know students didn't get help from friends/parents?"
+
 Look for:
 - Alignment with their typical classroom work
 - Progression across sections (should improve or stay consistent, not jump around)
 - Personalization to their actual courses and assignments
 - Some imperfections (perfect work is suspicious)
+
 If concerned, have student recreate one section under supervision.
 
 ### "Should this be graded for completion or performance?"
+
 **RECOMMENDATION:** Performance grade, BUT:
 - Weight it appropriately (10-15% of total grade, not 30-40%)
 - Allow one retake for students below 70%
@@ -912,17 +1182,19 @@ If concerned, have student recreate one section under supervision.
 Alternatively, use as formative assessment (completion grade) and follow up with a performance task.
 
 ### "What if most students score below 70%?"
+
 This indicates:
 - Class needs more instruction on these techniques
 - Assessment may have been given too early
 - Students may not have taken it seriously
+
 **Response:** Review low-scoring sections as a class; provide additional practice; consider offering retake after reteaching.
 
 ---
 
 ## Answer Key Philosophy
 
-**Note:** There are NO "correct answers" in prompt engineering—only more or less effective approaches. This guide provides EXAMPLES of strong work, not THE ONLY right answers.
+> **Note:** There are NO "correct answers" in prompt engineering—only more or less effective approaches. This guide provides EXAMPLES of strong work, not THE ONLY right answers.
 
 **Evaluation Focus:**
 - Presence and quality of required components
@@ -940,8 +1212,13 @@ This indicates:
 
 ## Final Implementation Checklist
 
-Before administering this assessment, ensure:
+<div align="center">
 
+**Preparation Checklist**
+
+</div>
+
+**Before Administration:**
 - [ ] Students have completed Classes 1 & 2
 - [ ] R.C.T.F. framework has been reviewed
 - [ ] Students have access to Gemini
@@ -969,6 +1246,17 @@ Before administering this assessment, ensure:
 
 ---
 
+<div align="center">
+
+**Assessment Framework Complete**
+
 This assessment represents a comprehensive evaluation of prompt engineering skills aligned with your curriculum. Students who score well demonstrate not just memorization of techniques, but strategic application and synthesis—exactly the skills they need for academic success and lifelong learning.
 
-Good luck with implementation! 🎓
+**Good luck with implementation!**
+
+</div>
+
+---
+
+*Created for AI Academy AI Skills Camp • Prompt Engineering Curriculum*
+

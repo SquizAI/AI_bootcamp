@@ -3,23 +3,22 @@
 
 ---
 
-## Welcome to Class 4!
+## Welcome to Class 4
 
-### Today's Goal
-Build your complete AI learning system
+### Build Your Complete AI Learning System
 
-**You'll create:**
+Create:
 - Personal prompt library
 - Learning workflows
 - Ethical guidelines
 
-**You'll leave with:**
+Leave with:
 - Tools you'll use forever
 - Confidence as an independent AI user
 
 ---
 
-## Your Journey So Far
+## Your Journey
 
 ### Class 1: Foundations
 - Role-based prompting
@@ -39,7 +38,7 @@ Build your complete AI learning system
 - Meta-prompting
 - Building reusable systems
 
-### Class 4: Integration (Today!)
+### Class 4: Integration (Today)
 - Putting it all together
 - Building sustainable systems
 - Ethical frameworks
@@ -47,9 +46,9 @@ Build your complete AI learning system
 
 ---
 
-## Quick Review: Integration in Action
+## Integration in Action
 
-### Look at This Prompt
+### Example Prompt Analysis
 
 ```
 You are an expert chemistry tutor working with a high school student.
@@ -60,7 +59,7 @@ I tend to get confused about which direction the equilibrium shifts.
 
 Here's an example of how I want you to help:
 Problem: "If we increase the pressure..."
-Your response: "Let's think through this step by step. First, what
+Your response: "Let me think through this step by step. First, what
 happens to the number of molecules when pressure increases?..."
 
 Now help me with this problem: If we add more reactant A to the
@@ -70,14 +69,12 @@ Don't just tell me the answer—guide me to figure it out. Use
 questions and step-by-step reasoning.
 ```
 
-### What Techniques Do You See?
-
-**Identify:**
-- Role-based prompting ✓
-- Context engineering ✓
-- Few-shot example ✓
-- Multi-step structure ✓
-- Constraints/negative prompting ✓
+### Techniques Used:
+- Role-based prompting
+- Context engineering
+- Few-shot example
+- Multi-step structure
+- Constraints/negative prompting
 
 **This is integration:** Multiple techniques working together seamlessly
 
@@ -89,14 +86,14 @@ questions and step-by-step reasoning.
 
 ## What is a Prompt Library?
 
-### NOT Just a Random Collection
-A library is an **organized system** of your best prompts that you can:
-- Reuse whenever you need them
+### An Organized System
+A library is a structured collection of your best prompts that you can:
+- Reuse whenever needed
 - Adapt for similar situations
 - Share with study partners
 - Build on over time
 
-### Think of It Like...
+### Analogies:
 - A cookbook of your best recipes
 - A toolbox organized by function
 - A playlist of your favorite songs
@@ -104,11 +101,11 @@ A library is an **organized system** of your best prompts that you can:
 
 ---
 
-## How to Organize Your Library
+## Organization Methods
 
 ### Option 1: By Subject
 ```
-📚 MY PROMPT LIBRARY
+MY PROMPT LIBRARY
 
 MATH
   - Concept explanations
@@ -133,7 +130,7 @@ HISTORY
 
 ### Option 2: By Task Type
 ```
-🎯 MY PROMPT LIBRARY
+MY PROMPT LIBRARY
 
 EXPLAINING CONCEPTS
   - Works across all subjects
@@ -158,8 +155,6 @@ Combine both approaches:
 - Main organization by task type
 - Sub-sections by subject
 - Favorites section for most-used
-
-**Choose what makes sense for YOU**
 
 ---
 
@@ -203,17 +198,9 @@ LAST USED: [date]
 EFFECTIVENESS: ⭐⭐⭐⭐⭐ (5/5)
 ```
 
-### Key Elements
-- **Name**: Easy to remember
-- **Categories**: Subject and task type
-- **The Prompt**: Complete, ready to use
-- **Notes**: How to customize
-- **Variations**: Different versions
-- **Tracking**: When used, how effective
-
 ---
 
-## Library + AI Studio = Power Combo
+## Library + AI Studio Integration
 
 ### Save Your Best Configurations
 
@@ -234,52 +221,14 @@ You are a patient, encouraging math tutor. When I ask for help:
 I'm a visual learner, so use descriptions I can picture.
 ```
 
-### Your Library Feeds Your Studio
+### Connection
 - Library entries become system instructions
 - Best prompts become saved chats
 - One system, multiple access points
 
 ---
 
-## Demo: Creating a Library Entry
-
-### Let's Build One Together
-
-**Scenario:** You frequently need help understanding science concepts
-
-**Step 1: Name it**
-"Science Concept Connector"
-
-**Step 2: Define when to use**
-"When I understand parts but don't see how they connect"
-
-**Step 3: Write the prompt**
-```
-Act as a science teacher helping a [grade] student.
-
-I'm learning about [topic]. I understand these individual parts:
-- [concept 1]
-- [concept 2]
-- [concept 3]
-
-But I don't understand how they connect or relate to each other.
-
-Please:
-1. Explain the connections between these concepts
-2. Show me the big picture
-3. Use an analogy that ties everything together
-4. Give me a way to remember the relationships
-```
-
-**Step 4: Add notes**
-"Works for biology, chemistry, physics. Best when I list out what I already know."
-
-**Step 5: Track it**
-"Created: Oct 28, 2025. Try it out and rate effectiveness!"
-
----
-
-## Your Library Will Grow
+## Library Growth Strategy
 
 ### Start Small
 - 10-15 core prompts today
@@ -293,7 +242,7 @@ Please:
 ### It's Personal
 - Your library reflects YOUR learning style
 - No two libraries will be identical
-- That's perfect!
+- That's perfect
 
 ---
 
@@ -303,16 +252,16 @@ Please:
 
 ## What is a Learning Workflow?
 
-### Definition
-A **workflow** is a repeatable step-by-step process you follow for common academic tasks
+**Definition:**
+A repeatable step-by-step process for common academic tasks
 
-### Why Workflows Matter
+**Benefits:**
 - **Consistency**: Same process = reliable results
 - **Efficiency**: No reinventing the wheel
 - **Quality**: Proven steps = better outcomes
 - **Habit**: Becomes automatic over time
 
-### Workflows Use Your Library
+**Connection:**
 - Each step uses relevant library prompts
 - Library = tools
 - Workflows = how you use them
@@ -320,8 +269,6 @@ A **workflow** is a repeatable step-by-step process you follow for common academ
 ---
 
 ## Workflow 1: Problem Set Assistance
-
-### The Process
 
 **Step 1: Independent Attempt**
 - Try all problems yourself first
@@ -347,14 +294,11 @@ A **workflow** is a repeatable step-by-step process you follow for common academ
 - Use learned concepts independently
 - Build genuine skill
 
-### Key Principle
-AI helps you understand, then YOU do the work
+**Key Principle:** AI helps you understand, then YOU do the work
 
 ---
 
 ## Workflow 2: Concept Mastery
-
-### The Process
 
 **Step 1: Initial Exposure**
 - Read textbook or attend lesson
@@ -389,8 +333,6 @@ AI helps you understand, then YOU do the work
 ---
 
 ## Workflow 3: Research & Writing
-
-### The Process
 
 **Step 1: Understand the Assignment**
 - Read requirements carefully
@@ -434,14 +376,11 @@ AI helps you understand, then YOU do the work
 - Use AI for unclear sentences only
 - Submit work that's genuinely yours
 
-### Balance Point
-Most work is yours; AI provides feedback and guidance
+**Balance Point:** Most work is yours; AI provides feedback and guidance
 
 ---
 
 ## Workflow 4: Study & Test Prep
-
-### The Process
 
 **Step 1: Content Review**
 - Review notes and materials
@@ -478,40 +417,7 @@ Most work is yours; AI provides feedback and guidance
 - Trust your preparation
 - Confidence from mastery
 
-### Test Day
-NO AI - You know this!
-
----
-
-## Build Your Own Workflow
-
-### Questions to Ask
-
-**What task do you do regularly?**
-- Writing essays?
-- Math problem sets?
-- Reading comprehension?
-- Lab reports?
-- History research?
-
-**What steps are involved?**
-- Map out the process
-- Where do you currently struggle?
-- Where would AI help most?
-
-**Where should AI be involved?**
-- Understanding concepts?
-- Getting feedback?
-- Checking work?
-- Generating practice?
-
-**Where should you work independently?**
-- Initial attempts?
-- Final products?
-- Creative thinking?
-- Skill application?
-
-### Your Workflow = Your Success System
+**Test Day:** NO AI - You know this!
 
 ---
 
@@ -519,16 +425,14 @@ NO AI - You know this!
 
 ---
 
-## The Big Question
+## Using AI: Help or Cheating?
 
-### Using AI: Help or Cheating?
-
-**The honest truth:**
+**Reality:**
 - The line isn't always clear
 - Different teachers have different rules
 - You need a framework for making good decisions
 
-**What we'll do:**
+**Approach:**
 - Develop decision-making tools
 - Discuss real scenarios
 - Create your personal guidelines
@@ -564,75 +468,52 @@ NO AI - You know this!
 - ✓ Would I be comfortable telling my teacher how I used AI?
 - ✗ Am I hiding my AI use because I know it's wrong?
 
-### Rule of Thumb
-Green checks = Appropriate learning support
-Red X's = Crossing the line into dishonesty
+**Rule of Thumb:**
+- Green checks = Appropriate learning support
+- Red X's = Crossing the line into dishonesty
 
 ---
 
-## Ethical Scenario 1
+## Ethical Scenarios
 
-### Math Problem Set
+### Scenario 1: Math Problem Set (APPROPRIATE)
 
 **Situation:**
-You have a math problem set with 10 problems. You solve the first one yourself but get stuck. You use AI to understand the concept, then solve the remaining 9 problems independently.
+You have 10 math problems. You solve the first one yourself but get stuck. You use AI to understand the concept, then solve the remaining 9 problems independently.
 
-**Questions:**
-- Are you learning or shortcutting?
-- Would this be appropriate?
-
-### Analysis
-✓ **APPROPRIATE**
+**Analysis:** ✓ APPROPRIATE
 
 **Why?**
-- You attempted independently first
+- Attempted independently first
 - Used AI to understand, not to solve
 - Applied learning independently
 - Built genuine skills
 - Could explain your work
 
-**Key:** AI helped you learn the concept
-
 ---
 
-## Ethical Scenario 2
-
-### Essay Writing
+### Scenario 2: Essay Writing (NOT APPROPRIATE)
 
 **Situation:**
-You have an essay due tomorrow. You paste the prompt into AI and ask it to write the essay. You read it, make a few small changes, and submit it as your work.
+You paste the essay prompt into AI and ask it to write the essay. You read it, make a few small changes, and submit it as your work.
 
-**Questions:**
-- Are you learning or shortcutting?
-- Would this be appropriate?
-
-### Analysis
-✗ **NOT APPROPRIATE**
+**Analysis:** ✗ NOT APPROPRIATE
 
 **Why?**
-- You bypassed all the learning
+- Bypassed all the learning
 - Didn't develop writing skills
 - Can't explain the thinking
 - Avoided assignment's purpose
 - This is plagiarism
 
-**Key:** AI did your thinking for you
-
 ---
 
-## Ethical Scenario 3
-
-### Essay Feedback
+### Scenario 3: Essay Feedback (APPROPRIATE)
 
 **Situation:**
 You write your essay draft yourself. You share it with AI asking: "What's weak about my argument? What evidence am I missing?" You then research those gaps and revise your work yourself.
 
-**Questions:**
-- Are you learning or shortcutting?
-- Would this be appropriate?
-
-### Analysis
-✓ **APPROPRIATE**
+**Analysis:** ✓ APPROPRIATE
 
 **Why?**
 - You wrote the original work
@@ -641,53 +522,14 @@ You write your essay draft yourself. You share it with AI asking: "What's weak a
 - Developing critical thinking
 - Could cite AI feedback
 
-**Key:** AI provided feedback, you did the work
-
 ---
 
-## Ethical Scenario 4
-
-### Citation Question
-
-**Situation:**
-You use AI to explain a complex history concept. You understand it deeply and write your analysis in your own words, incorporating what you learned. You don't mention AI anywhere in your paper.
-
-**Questions:**
-- Does this require citation?
-- What's the right approach?
-
-### Analysis
-**GRAY AREA** - Depends on School Policy
-
-**Considerations:**
-- Some schools require citing AI assistance
-- Others don't for concept explanations
-- Similar to: Do you cite your teacher for explaining?
-- Writing is yours, understanding aided by AI
-
-**Best Practice:**
-- Check your school's policy
-- When in doubt, cite
-- Be transparent about your process
-
-**Example citation:**
-"I used AI to understand [concept] before developing this analysis."
-
----
-
-## Ethical Scenario 5
-
-### Test Time
+### Scenario 4: Test Time (NOT APPROPRIATE)
 
 **Situation:**
 It's test day. You're stuck on a question. You secretly use AI on your phone under your desk to help you answer it.
 
-**Questions:**
-- Are you learning or shortcutting?
-- Would this be appropriate?
-
-### Analysis
-✗ **DEFINITELY NOT APPROPRIATE**
+**Analysis:** ✗ DEFINITELY NOT APPROPRIATE
 
 **Why?**
 - This is clearly cheating
@@ -695,8 +537,6 @@ It's test day. You're stuck on a question. You secretly use AI on your phone und
 - No assistance allowed
 - Violates test conditions
 - Could result in serious consequences
-
-**Key:** Tests are independent measures of learning
 
 ---
 
@@ -745,16 +585,11 @@ and provide feedback during the development of this work.
 All final ideas, analysis, and writing are my own."
 ```
 
-### In Your Workflow
-Keep notes of when and how you used AI for each assignment
-
 ---
 
 ## Your Personal Ethical Guidelines
 
 ### Draft Your Own Rules
-
-**Questions to Answer:**
 
 **1. What will I ALWAYS do?**
 - Attempt work independently first?
@@ -787,7 +622,7 @@ Keep notes of when and how you used AI for each assignment
 
 ## The Golden Rule of AI Use
 
-### "Am I learning or am I shortcutting?"
+**"Am I learning or am I shortcutting?"**
 
 **If AI helps you understand → Appropriate**
 **If AI does your thinking → Inappropriate**
@@ -804,19 +639,17 @@ Keep notes of when and how you used AI for each assignment
 
 ### What You're Creating
 
-A comprehensive personal system including:
-
-**1. Personal Prompt Library**
+**1. Personal Prompt Library** (40% of grade)
 - Organized collection of your best prompts
 - Ready to use anytime
 - Continuously evolving
 
-**2. Real Assignment Application**
+**2. Real Assignment Application** (40% of grade)
 - Apply integrated techniques to actual homework
 - Document your process
 - Show results
 
-**3. Ethical Use Statement**
+**3. Ethical Use Statement** (20% of grade)
 - Your personal guidelines
 - How you'll use AI appropriately
 - Citation plan
@@ -824,7 +657,6 @@ A comprehensive personal system including:
 ---
 
 ## Component 1: Personal Prompt Library
-### 40% of Grade
 
 **Requirements:**
 - Minimum 15 prompts
@@ -853,7 +685,6 @@ A comprehensive personal system including:
 ---
 
 ## Component 2: Real Assignment Application
-### 40% of Grade
 
 **Requirements:**
 - Choose a current complex assignment
@@ -884,7 +715,6 @@ A comprehensive personal system including:
 ---
 
 ## Component 3: Ethical Use Statement
-### 20% of Grade
 
 **Requirements:**
 - Your personal AI use guidelines
@@ -904,50 +734,9 @@ A comprehensive personal system including:
 - Show you've thought deeply
 - Make it actionable
 
-**Example Structure:**
-```
-My Guidelines:
-
-1. When I will use AI:
-   - [Specific situations]
-
-2. When I won't use AI:
-   - [Specific situations]
-
-3. How I'll cite:
-   - [Your format]
-
-4. How I'll ensure learning:
-   - [Your checks]
-```
-
 ---
 
-## Final Project Timeline
-
-### Today in Class (25 min)
-- Start building library
-- Begin organizing prompts
-- Draft ethical guidelines
-- Make significant progress
-
-### Complete by [Due Date]
-- Finish library (15+ prompts)
-- Complete assignment application
-- Polish ethical statement
-- Submit for feedback
-
-### Submission Format
-- [Specify: Google Doc, shared link, etc.]
-- Include all three components
-- Clear organization
-- Ready to use going forward
-
----
-
-## Work Time: What to Do Now
-
-### Next 25 Minutes
+## Practice Time (25 minutes)
 
 **Priority 1: Start Your Library**
 - Gather best prompts from Classes 1-3
@@ -967,61 +756,33 @@ My Guidelines:
 - Include examples
 - Make it real
 
-**Ask for Help:**
-- Teacher is circulating
-- Clarify requirements
-- Get feedback
-- Troubleshoot issues
-
 ---
 
 ## Success Tips
 
-### Make It Actually Useful
+**Make It Actually Useful**
 - This isn't just for a grade
 - You'll use this library all year
 - Invest in making it good
 - Future you will thank you
 
-### Quality Over Quantity
+**Quality Over Quantity**
 - 10 excellent prompts > 25 mediocre ones
 - Document thoroughly
 - Include usage notes
 - Make it clear
 
-### Use Real Work
+**Use Real Work**
 - Don't make up fake assignments
 - Apply to actual homework
 - Solve real problems
 - Demonstrate genuine value
 
-### Be Honest
+**Be Honest**
 - Ethical statement should reflect reality
 - Don't just write what sounds good
 - Make commitments you can keep
 - Be thoughtful and genuine
-
----
-
-## Rubric Overview
-
-### Prompt Library (40%)
-- **Excellent (36-40)**: 15+ high-quality prompts, excellent organization, detailed notes, shows mastery
-- **Proficient (32-35)**: 12-15 good prompts, clear organization, basic notes, shows competence
-- **Developing (28-31)**: 10-12 basic prompts, some organization, minimal notes
-- **Needs Work (<28)**: Fewer than 10 prompts, poor organization, lacks documentation
-
-### Assignment Application (40%)
-- **Excellent (36-40)**: Complex task, sophisticated technique integration, thorough documentation, clear learning
-- **Proficient (32-35)**: Appropriate task, good technique use, solid documentation, learning evident
-- **Developing (28-31)**: Basic task, some techniques used, minimal documentation
-- **Needs Work (<28)**: Simple task, few techniques, poor documentation
-
-### Ethical Statement (20%)
-- **Excellent (18-20)**: Thoughtful, specific, actionable guidelines with clear examples
-- **Proficient (16-17)**: Good guidelines with some specificity and examples
-- **Developing (14-15)**: Basic guidelines, somewhat generic
-- **Needs Work (<14)**: Vague or minimal ethical consideration
 
 ---
 
@@ -1031,20 +792,20 @@ My Guidelines:
 
 ## Your Learning Journey
 
-### Where You Started
+**Where You Started:**
 - Limited experience with AI
 - Vague or generic prompts
 - Frustrated by unhelpful responses
 - Uncertain about appropriate use
 
-### Where You Are Now
+**Where You Are Now:**
 - Skilled prompt engineer
 - Multiple technique mastery
 - Confident AI user
 - Clear ethical framework
 - Personal learning system
 
-### That's Significant Growth!
+**That's Significant Growth**
 
 ---
 
@@ -1076,86 +837,37 @@ My Guidelines:
 
 ---
 
-## What Students Say
-
-### Real Feedback from Previous Classes
-
-*"I used to get so frustrated with ChatGPT. Now I know it was my prompts, not the AI. This changed everything."*
-- 9th grader
-
-*"My grades actually improved because I understand things better now. AI helps me learn instead of just getting answers."*
-- 11th grader
-
-*"The prompt library is the best thing. I don't have to figure it out every time—I just use what works."*
-- 7th grader
-
-*"I showed my parents what I learned and now they're using it for work!"*
-- 9th grader
-
-*"The ethics discussions were so important. I feel confident about when and how to use AI appropriately."*
-- 11th grader
-
----
-
 ## How to Keep Growing
 
-### 1. Use Your Library Regularly
+**1. Use Your Library Regularly**
 - Don't let it collect dust
 - Add to it as you learn
 - Refine what works
 - Share with study partners
 
-### 2. Follow Your Workflows
+**2. Follow Your Workflows**
 - Turn processes into habits
 - Adjust based on results
 - Find what works for YOU
 - Stay consistent
 
-### 3. Stay Ethically Grounded
+**3. Stay Ethically Grounded**
 - Check decisions against your guidelines
 - When in doubt, ask teachers
 - Be transparent
 - Prioritize genuine learning
 
-### 4. Stay Curious
+**4. Stay Curious**
 - AI tools evolve constantly
 - New models bring new capabilities
 - Core principles remain the same
 - Explore and experiment
 
-### 5. Teach Others
+**5. Teach Others**
 - Share what you know
 - Help classmates learn
 - Teaching deepens your understanding
 - Build a community of skilled users
-
----
-
-## Resources for Continued Learning
-
-### Online Resources
-- **Google AI Essentials** (free course)
-- **Prompt Engineering Guide** (promptingguide.ai)
-- **r/PromptEngineering** (Reddit community)
-- **AI education Discord servers**
-
-### Stay Current
-- Follow Google AI updates
-- Try new models as released
-- Read AI education blogs
-- Join learning communities
-
-### At Your School
-- [List school-specific resources]
-- [AI clubs or groups]
-- [Teacher resources]
-- [Peer study groups]
-
-### Keep These Materials
-- All course documents remain accessible
-- Templates are yours forever
-- Update as AI evolves
-- Revisit when needed
 
 ---
 
@@ -1180,66 +892,4 @@ My Guidelines:
 
 ---
 
-## Thank You!
-
-### Questions?
-### Concerns?
-### Ready to Build Your System?
-
-**Let's get to work!**
-
----
-
-## Contact & Support
-
-### Need Help?
-- Office hours: [times]
-- Email: [contact]
-- Resources: [link]
-
-### Questions About Final Project?
-- Review the rubric
-- Check submission requirements
-- Ask during work time
-- Reach out anytime
-
-### Stay Connected
-- [School AI community/club]
-- [Follow-up sessions]
-- [Share success stories]
-
----
-
-## Completion Recognition
-
-### You've Earned This!
-
-**Skills Mastered:**
-- Prompt Engineering
-- AI Studio
-- Ethical AI Use
-- Learning System Design
-
-**You are certified awesome at:**
-- Getting AI to actually help you learn
-- Building systems that work
-- Using technology ethically
-- Being an independent AI user
-
-**Now go change your learning experience!**
-
----
-
-# Now: Work Time!
-
-## 25 Minutes to Build Your System
-
-**Focus on:**
-1. Prompt library organization
-2. Documenting best prompts
-3. Selecting real assignment
-4. Drafting ethical guidelines
-
-**Ask for help anytime!**
-
-**Make it useful for YOUR learning!**
+# End of Slides

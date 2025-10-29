@@ -1,63 +1,29 @@
 # Class 1: Foundations + Role-Based Prompting
-## Presentation Slides
 
 ---
 
-## Slide 1: Welcome!
-
-# Prompt Engineering for Students
+## Prompt Engineering for Students
 
 **Class 1: Foundations + Role-Based Prompting**
 
-Today you'll learn:
-- How to make AI actually useful for learning
-- Techniques that work with your real homework
-- Skills you can use immediately
+Skills covered:
+- Making AI useful for learning
+- Techniques for real homework
+- Immediately applicable methods
 
 ---
 
-## Slide 2: Quick Poll
+## The Frustration Cycle
 
-### Have you used AI tools before?
-
-**Show of hands:**
-- Used ChatGPT or Gemini?
-- Felt like AI didn't understand what you needed?
-- Got an unhelpful or wrong answer?
-
-**Today we fix that!**
+Common AI interaction problems:
+1. Vague question asked
+2. Generic, unhelpful answer received
+3. User frustration
+4. Time wasted or task abandoned
 
 ---
 
-## Slide 3: What We'll Cover Today
-
-### 90-Minute Agenda
-
-1. What is prompt engineering?
-2. Anatomy of a good prompt
-3. Role-based prompting
-4. Live demonstrations
-5. Context engineering
-6. **Hands-on practice with YOUR homework**
-
----
-
-## Slide 4: The Problem
-
-### The Frustration Cycle
-
-1. Ask AI a vague question
-2. Get a generic, unhelpful answer
-3. Get frustrated
-4. Give up or waste time
-
-**Sound familiar?**
-
----
-
-## Slide 5: Bad Prompt Demo
-
-### Example: The Vague Prompt
+## Example: The Vague Prompt
 
 **Prompt:**
 ```
@@ -66,17 +32,15 @@ help with math
 
 **AI Response:**
 - Generic overview of math help
-- Not specific to your problem
-- Doesn't know your level
-- Not actually helpful
+- Not specific to the problem
+- Doesn't know user's level
+- Not actionable
 
-**What's wrong here?**
+**Problem:** Insufficient specificity and context
 
 ---
 
-## Slide 6: Good Prompt Demo
-
-### Example: The Effective Prompt
+## Example: The Effective Prompt
 
 **Prompt:**
 ```
@@ -89,87 +53,79 @@ how to use it?
 ```
 
 **AI Response:**
-- Tailored to your level
-- Addresses your specific confusion
+- Tailored to user's level
+- Addresses specific confusion
 - Explains concepts, not just procedures
-- Actually helpful!
+- Actionable and helpful
 
-**What made this better?**
+**Improvement factors:** Specificity, context, clear task definition
 
 ---
 
-## Slide 7: What is Prompt Engineering?
+## What is Prompt Engineering?
 
-### Definition
+**Definition:** The practice of crafting effective instructions for AI tools to get useful, accurate, and helpful responses.
 
-**Prompt Engineering** is the practice of crafting effective instructions for AI tools to get useful, accurate, and helpful responses.
-
-### Think of it as:
-- Learning to ask better questions
+**Core concepts:**
+- Asking better questions
 - Speaking AI's language
-- Becoming an expert communicator
-- Getting AI to be your learning partner
+- Expert communication
+- AI as learning partner
 
 ---
 
-## Slide 8: Why This Matters
+## Benefits
 
-### The Benefits
-
-**Saves Time**
-- Get good help faster
+**Efficiency:**
+- Faster help
 - Less frustration
 - More efficient studying
 
-**Deeper Understanding**
+**Understanding:**
 - AI adapts to your level
-- Explains in ways you understand
-- Helps you think, not just get answers
+- Explanations match your comprehension
+- Supports thinking, not just answers
 
-**Works for Everything**
+**Versatility:**
 - Any subject
 - Any assignment
 - Any AI tool
 
 ---
 
-## Slide 9: Anatomy of a Good Prompt
+## Anatomy of a Good Prompt
 
-### The Four Components
-
-Every effective prompt has:
+### The Four Components (R.C.T.F.)
 
 1. **ROLE** - Who should the AI be?
 2. **CONTEXT** - What does the AI need to know?
 3. **TASK** - What exactly do you want?
 4. **FORMAT** - How should the response be structured?
 
-**Remember: R.C.T.F.**
-
 ---
 
-## Slide 10: Component 1 - ROLE
+## Component 1: ROLE
 
-### Who should the AI be?
+**Who should the AI be?**
 
-**Examples:**
+Examples:
 - "Act as a biology teacher..."
 - "You are an expert writing tutor..."
 - "Pretend you're a patient math coach..."
 
-**Why roles matter:**
-- Shapes the AI's expertise
+**Impact of roles:**
+- Shapes AI's expertise
 - Affects tone and approach
-- Guides the entire response
+- Guides entire response
 - Makes help more relevant
 
 ---
 
-## Slide 11: Component 2 - CONTEXT
+## Component 2: CONTEXT
 
-### What does the AI need to know?
+**What does the AI need to know?**
 
-**Include:**
+Include:
 - Your grade level
 - What you already understand
 - What you're struggling with
@@ -181,11 +137,11 @@ Every effective prompt has:
 
 ---
 
-## Slide 12: Component 3 - TASK
+## Component 3: TASK
 
-### What exactly do you want?
+**What exactly do you want?**
 
-**Be specific:**
+Be specific:
 - Explain a concept
 - Check my understanding
 - Provide practice problems
@@ -193,16 +149,17 @@ Every effective prompt has:
 - Help me outline an essay
 - Break down a complex problem
 
-**Vague:** "help me"
-**Specific:** "explain why this concept works"
+**Comparison:**
+- Vague: "help me"
+- Specific: "explain why this concept works"
 
 ---
 
-## Slide 13: Component 4 - FORMAT
+## Component 4: FORMAT
 
-### How should the response be structured?
+**How should the response be structured?**
 
-**Options:**
+Options:
 - Step-by-step explanation
 - Bullet points
 - Questions to test understanding
@@ -210,22 +167,20 @@ Every effective prompt has:
 - Simple language
 - Comparison chart
 
-**Example:**
-"Explain using an everyday analogy"
-"Give me 3 practice problems with explanations"
+**Examples:**
+- "Explain using an everyday analogy"
+- "Give me 3 practice problems with explanations"
 
 ---
 
-## Slide 14: Putting It All Together
+## Putting It All Together
 
 ### Labeled Example
 
 ```
 [CONTEXT] I'm a 9th grade student learning quadratic equations.
-[CONTEXT] I understand how to solve them using the quadratic
-formula,
-[CONTEXT] but I don't understand WHY the formula works or
-where it comes from.
+[CONTEXT] I understand how to solve them using the quadratic formula,
+[CONTEXT] but I don't understand WHY the formula works or where it comes from.
 [TASK] Can you explain the concept behind the quadratic formula
 [FORMAT] without just showing me how to use it?
 ```
@@ -234,9 +189,7 @@ where it comes from.
 
 ---
 
-## Slide 15: Practice Identification
-
-### Find the Components
+## Practice: Identify the Components
 
 ```
 Act as a history teacher helping a 10th grader. I'm writing
@@ -247,45 +200,27 @@ explain the deeper causes in a way that helps me understand
 how they all connected, maybe using a metaphor or analogy?
 ```
 
-**Can you identify:**
-- Role?
-- Context?
-- Task?
-- Format?
+Components:
+- **Role:** Act as a history teacher helping a 10th grader
+- **Context:** Writing essay about WWI causes, knows about assassination, need underlying causes
+- **Task:** Explain the deeper causes and their connections
+- **Format:** Using a metaphor or analogy
 
 ---
 
-## Slide 16: Identification - Answer
+## Role-Based Prompting
 
-```
-[ROLE] Act as a history teacher helping a 10th grader.
-[CONTEXT] I'm writing an essay about the causes of World War I.
-[CONTEXT] I know about the assassination of Archduke Franz
-Ferdinand,
-[CONTEXT] but my teacher says that's just the spark, not the
-underlying causes.
-[TASK] Can you explain the deeper causes in a way that helps
-me understand how they all connected,
-[FORMAT] maybe using a metaphor or analogy?
-```
-
----
-
-## Slide 17: Role-Based Prompting
-
-### The Power of Roles
-
-**When you assign a role, the AI adopts:**
-- That field's expertise
-- An appropriate teaching style
-- A suitable tone
+**Effects of role assignment:**
+- AI adopts field's expertise
+- Appropriate teaching style
+- Suitable tone
 - Relevant knowledge
 
-**Different roles = different help**
+Different roles = different help
 
 ---
 
-## Slide 18: Common Learning Roles
+## Common Learning Roles
 
 ### Subject Expert Roles
 - "Act as a [subject] teacher for [grade level]"
@@ -304,7 +239,7 @@ me understand how they all connected,
 
 ---
 
-## Slide 19: Role Comparison Demo
+## Role Comparison
 
 ### Scenario: Explain Photosynthesis
 
@@ -317,47 +252,42 @@ me understand how they all connected,
 **Version 3 - Specific Role:**
 "Act as a biology teacher who uses everyday analogies. I'm a 7th grader learning about photosynthesis. I understand that plants need sunlight and water, but I don't get what's actually happening in the plant. Explain photosynthesis using an analogy to something I'd recognize from daily life."
 
-**Which works best?**
+**Effectiveness:** Increases with role specificity
 
 ---
 
-## Slide 20: Choosing the Right Role
+## Choosing the Right Role
 
 ### Decision Guide
 
-**Need concept explained?** → Subject teacher/tutor
-
-**Working on writing?** → Writing coach/editor
-
-**Studying for test?** → Test prep tutor
-
-**Want to think it through?** → Socratic teacher
-
-**Need encouragement?** → Patient coach/supportive partner
-
-**Want peer perspective?** → Peer who excels at subject
+| Need | Role |
+|------|------|
+| Concept explained | Subject teacher/tutor |
+| Working on writing | Writing coach/editor |
+| Studying for test | Test prep tutor |
+| Want to think it through | Socratic teacher |
+| Need encouragement | Patient coach/supportive partner |
+| Want peer perspective | Peer who excels at subject |
 
 ---
 
-## Slide 21: Context Engineering
+## Context Engineering
 
-### What is Context?
+**Context = background information the AI needs**
 
-**Context is background information the AI needs to help YOU specifically:**
+Include:
 - Your grade/age level
 - What you already know
 - What you don't understand
 - Your learning style preferences
-- The assignment requirements
+- Assignment requirements
 - Constraints or limitations
 
-**More context = more relevant help**
+**Principle:** More context = more relevant help
 
 ---
 
-## Slide 22: Why Context Matters
-
-### The Difference Context Makes
+## Why Context Matters
 
 **Without proper context:**
 - AI makes wrong assumptions
@@ -373,17 +303,15 @@ me understand how they all connected,
 
 ---
 
-## Slide 23: Context Comparison
+## Context Comparison
 
-### Minimal vs. Rich Context
-
-**Minimal:**
+### Minimal Context
 ```
 Act as a writing tutor. Help me with my essay
 about climate change.
 ```
 
-**Rich:**
+### Rich Context
 ```
 Act as a writing tutor for high school students.
 I'm a 10th grader writing a 5-paragraph persuasive
@@ -395,13 +323,13 @@ you suggest strategies for strengthening body
 paragraphs without rewriting them for me?
 ```
 
-**Notice the difference in responses!**
+**Result:** Rich context produces significantly more useful responses
 
 ---
 
-## Slide 24: The Context Checklist
+## The Context Checklist
 
-### Before Prompting, Ask Yourself:
+Before prompting, consider:
 
 - [ ] What's my grade level?
 - [ ] What have I already learned about this?
@@ -410,11 +338,11 @@ paragraphs without rewriting them for me?
 - [ ] Are there any requirements I need to mention?
 - [ ] Do I want to understand concepts or practice skills?
 
-**Pro Tip:** More context is usually better than less!
+**Guideline:** More context is usually better than less
 
 ---
 
-## Slide 25: Adding Context - Practice
+## Adding Context - Practice
 
 ### Transform This Prompt
 
@@ -423,7 +351,7 @@ paragraphs without rewriting them for me?
 Explain the water cycle
 ```
 
-**What context would help?**
+**Context to add:**
 - Grade level?
 - What you already know?
 - Why you're learning it?
@@ -432,9 +360,7 @@ Explain the water cycle
 
 ---
 
-## Slide 26: Adding Context - Answer
-
-### Improved Version
+## Adding Context - Improved Version
 
 ```
 Act as a science teacher. I'm a 6th grader learning
@@ -445,129 +371,100 @@ different. Can you explain those two parts clearly and
 show how they connect to the parts I already understand?
 ```
 
-**Much more helpful!**
+**Improvement:** Specific context enables targeted, useful response
 
 ---
 
-## Slide 27: Live Demonstrations
-
-### Your Turn to Guide!
-
-**We'll build prompts together for:**
-- Math problems you're working on
-- Science topics you're studying
-- History questions you have
-- Writing assignments you're doing
-
-**Process:**
-1. Share what you're learning
-2. Choose a role together
-3. Add context together
-4. Run the prompt
-5. See the result!
-
----
-
-## Slide 28: Refining Prompts
+## Refining Prompts
 
 ### When the Response Isn't Perfect
 
-**Too complicated?**
+**Too complicated:**
 → "Explain that more simply" or "Use language for a [grade] grader"
 
-**Too simple?**
+**Too simple:**
 → "Can you go deeper into [specific part]?"
 
-**Wrong format?**
+**Wrong format:**
 → "Can you show that as [desired format]?"
 
-**Doesn't answer your question?**
+**Doesn't answer your question:**
 → Add more context about what you specifically need
 
-**First prompts rarely perfect—refine and iterate!**
+**Note:** First prompts rarely perfect—refine and iterate
 
 ---
 
-## Slide 29: Common Mistakes to Avoid
+## Common Mistakes to Avoid
 
 ### Don't:
-
-❌ Be too vague - "help with homework"
-❌ Leave out your grade level
-❌ Ask for answers without understanding
-❌ Forget to specify what you already know
-❌ Give up after one attempt
+- Be too vague - "help with homework"
+- Leave out your grade level
+- Ask for answers without understanding
+- Forget to specify what you already know
+- Give up after one attempt
 
 ### Do:
-
-✅ Be specific about what you need
-✅ Include your level and context
-✅ Ask for explanations and understanding
-✅ Tell AI what you know and don't know
-✅ Refine prompts based on responses
+- Be specific about what you need
+- Include your level and context
+- Ask for explanations and understanding
+- Tell AI what you know and don't know
+- Refine prompts based on responses
 
 ---
 
-## Slide 30: Hands-On Practice Time!
+## Practice Exercises
 
-### Your Turn! (25 minutes)
-
-**Bring out your actual homework!**
-
-**Exercise 1:** Role-Based Prompts (7-8 min)
+### Exercise 1: Role-Based Prompts (7-8 min)
 - Choose a subject
 - Create a complete prompt
 - Test in Gemini
 - Refine if needed
 
-**Exercise 2:** Context Engineering (7-8 min)
+### Exercise 2: Context Engineering (7-8 min)
 - Use a real homework question
 - Write with rich context
-- Compare to your old approach
+- Compare to previous approach
 
-**Exercise 3:** Multiple Subjects (5-6 min)
+### Exercise 3: Multiple Subjects (5-6 min)
 - Try 2-3 different subjects
-- Save prompts that work!
+- Save prompts that work
 
 ---
 
-## Slide 31: Success Criteria
+## Success Criteria
 
-### You're Succeeding If:
+You're succeeding if:
+- You get a response that helps you understand something
+- The AI's response is at your level
+- You can refine prompts when needed
+- You have at least one prompt that really works for you
 
-✅ You get a response that helps you understand something
-
-✅ The AI's response is at your level
-
-✅ You can refine prompts when needed
-
-✅ You have at least one prompt that really works for you
-
-**Don't aim for perfect—aim for helpful!**
+**Goal:** Helpful, not perfect
 
 ---
 
-## Slide 32: Quick Recap
+## Summary
 
-### What We Learned Today
+### Key Concepts
 
-**Four Components:** Role, Context, Task, Format
+**Four Components:** Role, Context, Task, Format (R.C.T.F.)
 
-**Role-Based Prompting:** Assign AI expertise
+**Role-Based Prompting:** Assign AI specific expertise
 
 **Context Engineering:** Make responses relevant to YOU
 
-**Practice:** The more you prompt, the better you get
+**Practice:** Skill improves with use
 
-**Key Insight:** This works with your real homework, right now!
+**Application:** These techniques work with real homework immediately
 
 ---
 
-## Slide 33: Homework Assignment
+## Homework Assignment
 
 ### "Prompt Engineering in Action"
 
-**Over the next week:**
+Over the next week:
 
 1. Choose **3 different subjects** you're currently studying
 2. Create a **role-based prompt** for each using today's techniques
@@ -578,11 +475,11 @@ show how they connect to the parts I already understand?
 
 **Expected time:** 20-30 minutes
 
-**This isn't extra work—use it FOR your homework!**
+**Tip:** Use this FOR your homework, not as extra work
 
 ---
 
-## Slide 34: Homework Tips
+## Homework Tips
 
 ### Making the Most of Practice
 
@@ -601,38 +498,36 @@ show how they connect to the parts I already understand?
 
 ---
 
-## Slide 35: Preview - Class 2
+## Preview: Class 2
 
-### What's Next?
+### Advanced Techniques
 
-**Class 2: Advanced Techniques**
+Class 2 topics:
 - Multi-step prompting for complex problems
 - Few-shot prompting with examples
 - Negative prompting and constraints
 - Combining techniques
-- More hands-on practice!
+- More hands-on practice
 
 **Building on today's foundation**
 
 ---
 
-## Slide 36: Remember
-
-### The Goal
+## The Goal
 
 **AI is your learning partner, not your replacement**
 
-You're developing skills that will:
+Skills you're developing:
 - Make studying more efficient
 - Deepen your understanding
 - Work across all subjects
 - Serve you for years to come
 
-**You're not just getting answers—you're becoming a better learner**
+**Result:** Becoming a better learner, not just getting answers
 
 ---
 
-## Slide 37: Academic Integrity
+## Academic Integrity
 
 ### Using AI Appropriately
 
@@ -649,47 +544,11 @@ You're developing skills that will:
 - Submitting AI work as your own
 - Bypassing learning requirements
 
-**When in doubt, ask your teacher!**
+**When in doubt, ask your teacher**
 
 ---
 
-## Slide 38: Questions?
-
-### Before You Go
-
-**Quick questions now**
-
-**Longer questions:**
-- Email me
-- Office hours
-- Discussion board
-
-**Remember:**
-- Homework due before Class 2
-- Bring examples to share
-- Keep practicing with real work
-
----
-
-## Slide 39: You've Got This!
-
-### Key Takeaway
-
-**You just learned a skill that will make learning easier, more efficient, and more effective.**
-
-**Start using it TODAY with your homework!**
-
-### Resources Shared:
-- Prompt templates
-- Context checklist
-- Role selection guide
-- Exercise files
-
-**See you in Class 2!**
-
----
-
-## Slide 40: Quick Reference
+## Quick Reference
 
 ### Prompt Template
 
@@ -705,38 +564,8 @@ you know], but I'm confused about [what you don't know].
 etc.]?
 ```
 
-**Copy this! Customize it! Use it!**
+**Copy, customize, and use**
 
 ---
 
 # End of Slides
-
-## Presenter Notes
-
-### Timing Guide
-- Slides 1-8: 15 minutes (intro and what is PE)
-- Slides 9-16: 10 minutes (anatomy of prompts)
-- Slides 17-20: 15 minutes (role-based prompting)
-- Slides 21-26: 15 minutes (context engineering)
-- Slides 27-28: 15 minutes (live demos - not on slides, showing Gemini)
-- Slides 29-31: 25 minutes (hands-on practice)
-- Slides 32-40: 5 minutes (wrap-up)
-
-### Demonstration Slides
-Slides 27-28 are cues to switch from slides to live Gemini demonstrations. Have Gemini ready to go in another window.
-
-### Adaptation Tips
-- Add your own examples relevant to your students
-- Insert school-specific academic integrity policies
-- Customize homework submission methods
-- Adjust timing based on your class pace
-- Add or remove slides as needed
-
-### Visual Suggestions
-If converting to presentation software:
-- Use large, readable fonts
-- Add visual examples of prompts
-- Include screenshots of Gemini responses
-- Use color coding for the four components
-- Add icons or emoji sparingly for visual interest
-- Keep text minimal—slides are talking points, not scripts

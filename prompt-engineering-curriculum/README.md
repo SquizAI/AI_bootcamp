@@ -1,247 +1,690 @@
-# Prompt Engineering Curriculum for Middle & High School Students
+<div align="center">
 
-## 🎯 Project Overview
+<!-- Animated Header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Prompt+Engineering+Skills+Program;Master+AI+Interaction+Through+Proven+Techniques" alt="Typing SVG" />
 
-This comprehensive 4-class curriculum teaches students in grades 7, 9, and 11 how to effectively use AI tools—particularly Google Gemini—as learning partners for their actual coursework. Students learn practical prompt engineering and context engineering techniques they can apply immediately to improve their studying, problem-solving, and understanding across all subjects.
+<p align="center">
+  <strong>A comprehensive four-class curriculum covering practical techniques for effective AI interaction</strong>
+</p>
 
-## 🎓 Learning Objectives
+<p align="center">
+  Learn role-based prompting, multi-step reasoning, context engineering, and advanced AI tool usage<br>through hands-on exercises with Google Gemini
+</p>
 
-By completing this curriculum, students will be able to:
+<!-- Shield Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Classes-4-6366F1?style=for-the-badge&logo=googleclassroom&logoColor=white" alt="Classes" />
+  <img src="https://img.shields.io/badge/Duration-6_Hours-8B5CF6?style=for-the-badge&logo=clockify&logoColor=white" alt="Duration" />
+  <img src="https://img.shields.io/badge/Level-Beginner_to_Advanced-10B981?style=for-the-badge&logo=levelsdotfyi&logoColor=white" alt="Level" />
+  <img src="https://img.shields.io/badge/Techniques-6_Core-F59E0B?style=for-the-badge&logo=artifacthub&logoColor=white" alt="Techniques" />
+</p>
 
-- Craft effective prompts that elicit helpful, accurate responses from AI tools
-- Apply role-based prompting to get expert-level assistance in any subject
-- Break complex problems into manageable steps using multi-step prompting
-- Provide clear context to AI tools for more relevant help
-- Use few-shot prompting to guide AI responses with examples
-- Navigate and utilize Gemini AI Studio for advanced applications
-- Build personal prompt libraries for their specific learning needs
-- Use AI ethically and appropriately as a learning enhancement tool
-- Combine multiple techniques to tackle challenging academic work
+<!-- Class Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Class_1-Foundations-4F46E5?style=flat-square&logo=1&logoColor=white" alt="Class 1" />
+  <img src="https://img.shields.io/badge/Class_2-Advanced_Techniques-7C3AED?style=flat-square&logo=2&logoColor=white" alt="Class 2" />
+  <img src="https://img.shields.io/badge/Class_3-Gemini_Studio-EC4899?style=flat-square&logo=3&logoColor=white" alt="Class 3" />
+  <img src="https://img.shields.io/badge/Class_4-Integration-F59E0B?style=flat-square&logo=4&logoColor=white" alt="Class 4" />
+</p>
 
-## 👥 Target Audience
+</div>
 
-**Grades:** 7, 9, and 11 (adaptable for grades 6-12)
+<br>
 
-**Prerequisites:**
-- Basic computer and internet skills
-- Access to Google Gemini (free account)
-- Willingness to experiment and learn
-- Active coursework in core subjects (math, science, history, English)
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-**No prior AI or coding experience required!**
+<br>
 
-## 📚 Curriculum Overview
+## What You'll Master
 
-### Class 1: Foundations + Role-Based Prompting (90 minutes)
-Learn the anatomy of effective prompts and master role-based prompting to get expert-level help with homework. Students will understand how to provide context and craft prompts that actually help them learn.
+<div align="center">
 
-**Key Topics:**
-- What is prompt engineering?
-- Anatomy of effective prompts
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/user-male-circle.png" width="60"/>
+<h3>Role-Based<br>Prompting</h3>
+<p><em>Assign specific expertise roles to AI for targeted assistance</em></p>
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/process.png" width="60"/>
+<h3>Multi-Step<br>Prompting</h3>
+<p><em>Break complex problems into manageable sequential steps</em></p>
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/example.png" width="60"/>
+<h3>Few-Shot<br>Prompting</h3>
+<p><em>Guide AI responses through example-based learning</em></p>
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/settings.png" width="60"/>
+<h3>Context<br>Engineering</h3>
+<p><em>Structure background information for relevant responses</em></p>
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/cancel.png" width="60"/>
+<h3>Negative<br>Prompting</h3>
+<p><em>Define boundaries and constraints for AI behavior</em></p>
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/code.png" width="60"/>
+<h3>Meta-<br>Prompting</h3>
+<p><em>Design reusable prompt systems and templates</em></p>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+> **Additional Skills:** Navigate Gemini AI Studio, build personal prompt libraries, and combine techniques for complex tasks
+
+<br>
+
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## Curriculum Overview
+
+<div align="center">
+
+### Progress Through Four Comprehensive Classes
+
+</div>
+
+<!-- Class 1 -->
+<details open>
+<summary>
+<img src="https://img.shields.io/badge/Class_1-Foundations_+_Role--Based_Prompting-4F46E5?style=for-the-badge&logo=1&logoColor=white" alt="Class 1" />
+<strong>&nbsp;&nbsp;90 Minutes</strong>
+</summary>
+
+<br>
+
+Core concepts of effective prompting and role-based techniques. Covers prompt anatomy, context structure, and practical applications across different subjects.
+
+#### Learning Objectives
+
+```diff
++ Understand the fundamentals of prompt engineering
++ Master effective prompt anatomy and structure
++ Apply role-based prompting techniques
++ Implement basic context engineering
++ Complete practical hands-on exercises
+```
+
+#### Topics Covered
+
+<table>
+<tr>
+<td width="50%">
+
+**Core Concepts**
+- Prompt engineering fundamentals
+- Effective prompt anatomy
 - Role-based prompting techniques
+
+</td>
+<td width="50%">
+
+**Practical Application**
 - Basic context engineering
-- Hands-on practice with real homework
+- Hands-on exercises
+- Real-world examples
 
-### Class 2: Multi-Step & Advanced Techniques (90 minutes)
-Master advanced prompting strategies including chain-of-thought reasoning, few-shot examples, and negative prompting to handle complex academic challenges.
+</td>
+</tr>
+</table>
 
-**Key Topics:**
+</details>
+
+<!-- Class 2 -->
+<details open>
+<summary>
+<img src="https://img.shields.io/badge/Class_2-Multi--Step_&_Advanced_Techniques-7C3AED?style=for-the-badge&logo=2&logoColor=white" alt="Class 2" />
+<strong>&nbsp;&nbsp;90 Minutes</strong>
+</summary>
+
+<br>
+
+Advanced prompting strategies including chain-of-thought reasoning, few-shot examples, and constraint-based prompting.
+
+#### Learning Objectives
+
+```diff
++ Master multi-step prompting strategies
++ Implement few-shot and multi-shot prompting
++ Apply negative prompting and constraints
++ Combine techniques for complex tasks
++ Build advanced prompt systems
+```
+
+#### Topics Covered
+
+<table>
+<tr>
+<td width="50%">
+
+**Advanced Strategies**
 - Multi-step prompting strategies
 - Few-shot and multi-shot prompting
+- Chain-of-thought reasoning
+
+</td>
+<td width="50%">
+
+**Constraints & Integration**
 - Negative prompting and constraints
-- Combining techniques for complex tasks
+- Technique combination
+- Complex task handling
 
-### Class 3: Gemini AI Studio Deep Dive + Meta-Prompting (90 minutes)
-Explore the advanced features of Gemini AI Studio and learn meta-prompting—teaching AI how to help you better by creating reusable prompt systems.
+</td>
+</tr>
+</table>
 
-**Key Topics:**
-- Navigating Gemini AI Studio
+</details>
+
+<!-- Class 3 -->
+<details open>
+<summary>
+<img src="https://img.shields.io/badge/Class_3-Gemini_AI_Studio_+_Meta--Prompting-EC4899?style=for-the-badge&logo=3&logoColor=white" alt="Class 3" />
+<strong>&nbsp;&nbsp;90 Minutes</strong>
+</summary>
+
+<br>
+
+Advanced features of Gemini AI Studio and meta-prompting for creating reusable prompt systems.
+
+#### Learning Objectives
+
+```diff
++ Navigate Gemini AI Studio interface and features
++ Configure system instructions and settings
++ Master meta-prompting strategies
++ Build comprehensive prompt libraries
++ Create reusable prompt templates
+```
+
+#### Topics Covered
+
+<table>
+<tr>
+<td width="50%">
+
+**Platform Mastery**
+- Gemini AI Studio interface
 - System instructions and configurations
+- Advanced features exploration
+
+</td>
+<td width="50%">
+
+**System Building**
 - Meta-prompting strategies
-- Building personal prompt libraries
+- Building prompt libraries
+- Template creation
 
-### Class 4: Integration & Application (90 minutes)
-Bring it all together! Apply all learned techniques to real academic projects and develop a personal "AI as learning partner" system.
+</td>
+</tr>
+</table>
 
-**Key Topics:**
+</details>
+
+<!-- Class 4 -->
+<details open>
+<summary>
+<img src="https://img.shields.io/badge/Class_4-Integration_&_Application-F59E0B?style=for-the-badge&logo=4&logoColor=white" alt="Class 4" />
+<strong>&nbsp;&nbsp;90 Minutes</strong>
+</summary>
+
+<br>
+
+Synthesis of all techniques through real-world applications and system building.
+
+#### Learning Objectives
+
+```diff
++ Integrate multiple techniques effectively
++ Apply skills to real-world projects
++ Build sustainable prompt systems
++ Understand ethical AI use and academic integrity
++ Create comprehensive AI workflows
+```
+
+#### Topics Covered
+
+<table>
+<tr>
+<td width="50%">
+
+**Integration**
 - Integrating multiple techniques
 - Real-world project applications
-- Building sustainable learning systems
-- Ethical AI use and academic integrity
+- Comprehensive workflow design
 
-## 🗂️ Repository Structure
+</td>
+<td width="50%">
+
+**Best Practices**
+- Building sustainable prompt systems
+- Ethical AI use
+- Academic integrity
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<br>
+
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## Repository Structure
+
+<div align="center">
 
 ```
 prompt-engineering-curriculum/
-├── README.md                          # You are here
-├── LICENSE                            # MIT License
-├── .gitignore                         # Standard gitignore
-├── class-01-foundations/              # Class 1 materials
-├── class-02-advanced-techniques/      # Class 2 materials
-├── class-03-gemini-studio/            # Class 3 materials
-├── class-04-integration/              # Class 4 materials
-├── resources/                         # Shared resources and guides
-└── assessments/                       # Assessment tools and rubrics
+├── 📚 class-01-foundations/
+│   ├── README.md                  # Class overview and learning objectives
+│   ├── lesson-plan.md             # Detailed 90-minute session structure
+│   ├── slides.md                  # Presentation content
+│   ├── exercises/                 # Hands-on practice activities
+│   ├── prompt-templates/          # Reusable prompt templates
+│   └── student-examples/          # Sample implementations
+│
+├── 🚀 class-02-advanced-techniques/
+│   ├── README.md
+│   ├── lesson-plan.md
+│   ├── slides.md
+│   ├── exercises/
+│   ├── prompt-templates/
+│   └── student-examples/
+│
+├── 💎 class-03-gemini-studio/
+│   ├── README.md
+│   ├── lesson-plan.md
+│   ├── slides.md
+│   ├── exercises/
+│   ├── prompt-templates/
+│   └── student-examples/
+│
+├── 🎯 class-04-integration/
+│   ├── README.md
+│   ├── lesson-plan.md
+│   ├── slides.md
+│   ├── exercises/
+│   ├── prompt-templates/
+│   └── student-examples/
+│
+├── 📖 resources/                  # Shared reference materials
+│   ├── guides/
+│   ├── templates/
+│   └── libraries/
+│
+└── ✅ assessments/                # Evaluation tools and rubrics
+    ├── rubrics/
+    └── examples/
 ```
 
-Each class folder contains:
-- `README.md` - Class overview and objectives
-- `lesson-plan.md` - Detailed 90-minute lesson timeline
-- `slides.md` - Presentation content
-- `exercises/` - Hands-on practice activities
-- `prompt-templates/` - Reusable templates
-- `student-examples/` - Example work and demos
+</div>
 
-## 🚀 How to Use This Repository
+<br>
 
-### For Students
+> **Each class directory** contains complete materials for a 90-minute session, including lesson plans, slides, exercises, and templates.
 
-1. **Start with Class 1** - Even if you've used AI before, the foundations are crucial
-2. **Do the exercises** - Hands-on practice is where real learning happens
-3. **Save your templates** - The prompt templates are yours to customize and reuse
-4. **Try it with real homework** - Apply techniques to your actual schoolwork immediately
-5. **Build your library** - Collect prompts that work well for you in the resources section
+<br>
 
-### For Educators
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-1. **Review the lesson plans** - Each class has detailed timing and activity breakdowns
-2. **Customize for your students** - Content is differentiated for grades 7, 9, and 11
-3. **Use the slides** - Presentation content is ready to deliver (markdown format)
-4. **Leverage student examples** - Real examples help students see possibilities
-5. **Adapt to your schedule** - Classes can be extended or condensed as needed
+<br>
 
-### File Organization
+## Core Techniques Deep Dive
 
-- **Lesson Plans**: Step-by-step teaching guides with timing
-- **Slides**: Presentation content in markdown (convert to your preferred format)
-- **Exercises**: Hands-on activities with solutions
-- **Templates**: Fill-in-the-blank prompts students can customize
-- **Resources**: Reference materials, guides, and prompt libraries
-
-## 💡 Core Concepts Covered
+<table>
+<tr>
+<td width="50%">
 
 ### Role-Based Prompting
-Get expert-level help by assigning AI a specific role:
-> "Act as a biology teacher explaining photosynthesis to a 9th grader..."
+**Assign specific expertise to guide AI responses**
+
+```plaintext
+Act as a biology teacher explaining
+photosynthesis to a 9th grader...
+```
+
+<img src="https://img.shields.io/badge/Technique-Role--Based-4F46E5?style=flat-square" />
+<img src="https://img.shields.io/badge/Difficulty-Beginner-10B981?style=flat-square" />
+
+</td>
+<td width="50%">
 
 ### Multi-Step Prompting
-Break complex problems into manageable steps:
-> "First, help me identify the key concepts. Then, explain each one. Finally, show how they connect."
+**Structure complex tasks into sequential steps**
+
+```plaintext
+First, identify the key concepts.
+Then, explain each one.
+Finally, show how they connect.
+```
+
+<img src="https://img.shields.io/badge/Technique-Multi--Step-7C3AED?style=flat-square" />
+<img src="https://img.shields.io/badge/Difficulty-Intermediate-F59E0B?style=flat-square" />
+
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ### Few-Shot Prompting
-Teach AI your preferences with examples:
-> "Here's an example of the explanation style I need... Now explain this new concept similarly."
+**Guide AI behavior through examples**
+
+```plaintext
+Here's an example of the explanation
+style needed... Now explain this new
+concept similarly.
+```
+
+<img src="https://img.shields.io/badge/Technique-Few--Shot-EC4899?style=flat-square" />
+<img src="https://img.shields.io/badge/Difficulty-Intermediate-F59E0B?style=flat-square" />
+
+</td>
+<td width="50%">
 
 ### Context Engineering
-Provide the right background information:
-> "I'm a 10th grader learning quadratic equations. I understand basic algebra but struggle with factoring..."
+**Provide structured background information**
+
+```plaintext
+I'm learning quadratic equations.
+I understand basic algebra but
+struggle with factoring...
+```
+
+<img src="https://img.shields.io/badge/Technique-Context-06B6D4?style=flat-square" />
+<img src="https://img.shields.io/badge/Difficulty-Beginner-10B981?style=flat-square" />
+
+</td>
+</tr>
+<tr>
+<td width="50%">
 
 ### Negative Prompting
-Tell AI what NOT to do:
-> "Explain this without giving me the answer directly. Don't solve it for me."
+**Define constraints and boundaries**
+
+```plaintext
+Explain this without giving direct
+answers. Don't solve it for me.
+```
+
+<img src="https://img.shields.io/badge/Technique-Negative-EF4444?style=flat-square" />
+<img src="https://img.shields.io/badge/Difficulty-Intermediate-F59E0B?style=flat-square" />
+
+</td>
+<td width="50%">
 
 ### Meta-Prompting
-Create prompts that generate better prompts:
-> "Help me design a prompt template for getting help with history essay analysis."
+**Create prompt-generation systems**
 
-## 🛠️ Tools Used
+```plaintext
+Design a prompt template for
+history essay analysis.
+```
 
-### Google Gemini (Primary Tool)
-Free, powerful AI assistant accessible to all students. Used for everyday homework help and learning support.
+<img src="https://img.shields.io/badge/Technique-Meta-8B5CF6?style=flat-square" />
+<img src="https://img.shields.io/badge/Difficulty-Advanced-EF4444?style=flat-square" />
 
-### Gemini AI Studio (Advanced)
-More control over AI behavior with system instructions and configurations. Used in Class 3 for building reusable prompt systems.
+</td>
+</tr>
+</table>
 
-### NotebookLM (Supplementary)
-AI-powered research and note-taking tool. Introduced as an additional learning resource.
+<br>
 
-### Image Generation Tools (Optional)
-Visual learning aids through AI-generated images. Explored for creative projects and visual learning.
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🎬 Getting Started
+<br>
 
-### Quick Start (15 minutes)
+## Tools & Platforms
 
-1. **Clone or download this repository**
-   ```bash
-   git clone https://github.com/yourusername/prompt-engineering-curriculum.git
-   ```
+<div align="center">
 
-2. **Set up Google Gemini**
-   - Go to [gemini.google.com](https://gemini.google.com)
-   - Sign in with a Google account
-   - Familiarize yourself with the interface
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/color/96/000000/google-logo.png" width="80"/>
+<h3>Google Gemini</h3>
+<p>Primary AI assistant for prompt engineering practice</p>
+<p><strong>Free Access:</strong> <a href="https://gemini.google.com">gemini.google.com</a></p>
+<img src="https://img.shields.io/badge/Status-Primary_Tool-10B981?style=flat-square" />
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/google-code.png" width="80"/>
+<h3>Gemini AI Studio</h3>
+<p>Advanced interface with system instructions and configuration controls</p>
+<p><strong>Used in:</strong> Class 3 for building reusable systems</p>
+<img src="https://img.shields.io/badge/Status-Advanced_Tool-6366F1?style=flat-square" />
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/note.png" width="80"/>
+<h3>NotebookLM</h3>
+<p>Supplementary AI research and note-taking tool</p>
+<p><strong>Purpose:</strong> Additional resource for learning</p>
+<img src="https://img.shields.io/badge/Status-Supplementary-8B5CF6?style=flat-square" />
+</td>
+</tr>
+</table>
 
-3. **Try your first prompt**
-   - Open `class-01-foundations/prompt-templates/role-based-templates.md`
-   - Choose a template for a subject you're studying
-   - Customize it with your specific topic
-   - Test it in Gemini!
+</div>
 
-4. **Review Class 1 materials**
-   - Read `class-01-foundations/README.md`
-   - Review the lesson plan if you're teaching
-   - Try the exercises if you're learning
+<br>
 
-### Full Curriculum Path (4 x 90-minute sessions)
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-1. **Week 1**: Complete Class 1, practice with real homework
-2. **Week 2**: Complete Class 2, apply advanced techniques
-3. **Week 3**: Complete Class 3, set up Gemini Studio
-4. **Week 4**: Complete Class 4, create your personal learning system
+<br>
 
-## ✅ Success Indicators
+## Video Resources
 
-Students successfully using this curriculum will:
+<div align="center">
 
-- Regularly use AI tools to enhance their studying
-- Demonstrate improved understanding (not just answers) in their coursework
-- Create and maintain personal prompt libraries
-- Apply appropriate prompting techniques for different subjects
-- Use AI ethically and in accordance with academic integrity policies
-- Help peers learn to use AI effectively
-- Show increased confidence in tackling challenging academic work
+### 🎥 Curated Learning Videos
 
-## 🤝 Contributing
+<p>
+<strong>Enhance your learning with expert tutorials and engaging content</strong>
+</p>
 
-We welcome contributions from educators, students, and AI enthusiasts! Here's how you can help:
+<img src="https://img.shields.io/badge/Total_Videos-7+-E74C3C?style=for-the-badge&logo=youtube&logoColor=white" />
+<img src="https://img.shields.io/badge/Watch_Time-~88_Minutes-3498DB?style=for-the-badge&logo=clock&logoColor=white" />
+<img src="https://img.shields.io/badge/All-Free_&_Public-2ECC71?style=for-the-badge&logo=creative-commons&logoColor=white" />
 
-- **Share student examples**: Anonymized examples of successful prompts and results
-- **Improve exercises**: Suggest better activities or real-world scenarios
-- **Add subject guides**: Create guides for additional subjects
-- **Report issues**: Found a typo or unclear instruction? Let us know
-- **Translate**: Help make this curriculum accessible in other languages
+</div>
 
-Please see our contributing guidelines (coming soon) for more details.
+<br>
 
-## 🔒 Academic Integrity & Ethical Use
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/video.png" width="60"/>
+<h4>Class 1: Quick Starts</h4>
+<p>📺 Google for Students (5 min)<br>📺 Cute Dog Prompting (10 min)</p>
+<p><em>Perfect for beginners!</em></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/graduation-cap.png" width="60"/>
+<h4>Class 2: Stanford Expert</h4>
+<p>📺 <strong>Jeremy Utley</strong> (25 min)<br>Chain-of-thought, few-shot, & more</p>
+<p><em>Game-changing techniques!</em></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/code.png" width="60"/>
+<h4>Class 3: Platform Mastery</h4>
+<p>📺 Gemini Tutorial (15 min)<br>📺 Meta-Prompting Guide</p>
+<p><em>Build powerful systems!</em></p>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/rocket.png" width="60"/>
+<h4>Class 4: Inspiration</h4>
+<p>📺 AI Creativity (13 min)<br>📺 Course Review (20 min)</p>
+<p><em>See the big picture!</em></p>
+</td>
+</tr>
+</table>
 
-**Important**: This curriculum emphasizes using AI as a learning partner, not a shortcut. Students are taught to:
+<br>
 
-- Use AI to understand concepts, not just get answers
-- Always cite when AI helps with work that will be submitted
-- Follow their school's academic integrity policies
-- Understand the difference between learning assistance and cheating
-- Develop their own thinking skills alongside AI use
+<div align="center">
 
-**For Educators**: Each class includes discussion points about appropriate AI use. We recommend establishing clear guidelines for AI use in your classroom or school.
+### Featured: Stanford's AI Productivity Guide
 
-## 📄 License
+**[Stanford's Practical Guide to 10x Your AI Productivity | Jeremy Utley](https://www.youtube.com/watch?v=yMOmmnjy3sE)** (25 min)
 
-This curriculum is released under the MIT License, making it free to use, modify, and distribute for educational purposes. See [LICENSE](LICENSE) for full details.
+<img src="https://img.shields.io/badge/🌟-Highly_Recommended-FFD700?style=for-the-badge" />
 
-## 📧 Contact & Support
+Stanford's AI expert breaks down practical techniques with humor and clarity. Perfect alignment with Class 2 content—chain-of-thought reasoning, few-shot prompting, and the brilliant "AI as eager intern" metaphor!
 
-- **Questions about the curriculum**: Open an issue in this repository
-- **Feedback or suggestions**: Share your experiences and ideas
-- **Collaboration inquiries**: Reach out via GitHub
+</div>
 
-## 🙏 Acknowledgments
+<br>
 
-This curriculum was developed for real middle and high school students learning to harness AI as a powerful learning tool. Special thanks to all the students who tested these materials and provided feedback.
+> **📚 Complete Video Guide:** See [resources/VIDEO_RESOURCES.md](resources/VIDEO_RESOURCES.md) for the full curated collection with timestamps, usage tips, and learning strategies.
+
+<br>
+
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## Getting Started
+
+<div align="center">
+
+### Launch Your Prompt Engineering Journey
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://img.icons8.com/fluency/96/000000/1-circle.png" width="60"/>
+<h4>Navigate</h4>
+<p>Start with<br><code>class-01-foundations/</code></p>
+</td>
+<td align="center" width="20%">
+<img src="https://img.icons8.com/fluency/96/000000/2-circle.png" width="60"/>
+<h4>Review</h4>
+<p>Read the<br><code>README.md</code></p>
+</td>
+<td align="center" width="20%">
+<img src="https://img.icons8.com/fluency/96/000000/3-circle.png" width="60"/>
+<h4>Access</h4>
+<p>Explore<br><code>prompt-templates/</code></p>
+</td>
+<td align="center" width="20%">
+<img src="https://img.icons8.com/fluency/96/000000/4-circle.png" width="60"/>
+<h4>Practice</h4>
+<p>Complete<br><code>exercises/</code></p>
+</td>
+<td align="center" width="20%">
+<img src="https://img.icons8.com/fluency/96/000000/forward.png" width="60"/>
+<h4>Progress</h4>
+<p>Advance through<br>Classes 2-4</p>
+</td>
+</tr>
+</table>
+
+<br>
+
+> **Flexible Learning:** Classes are designed as 90-minute sessions, but can be completed at your own pace. Each class builds on previous concepts.
+
+<br>
+
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## Learning Statistics
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Total_Classes-4-6366F1?style=for-the-badge&logo=googleclassroom&logoColor=white" />
+<h4>Four Comprehensive Sessions</h4>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Total_Time-6_Hours-8B5CF6?style=for-the-badge&logo=clockify&logoColor=white" />
+<h4>Self-Paced Learning</h4>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Techniques-6_Core-10B981?style=for-the-badge&logo=stackshare&logoColor=white" />
+<h4>Essential Skills Covered</h4>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Exercises-Hands--On-F59E0B?style=for-the-badge&logo=expertsexchange&logoColor=white" />
+<h4>Practical Application</h4>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+## License
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License" />
+
+<p>
+This curriculum is released under the MIT License.<br>
+Free to use, modify, and distribute.
+</p>
+
+<p>
+<em>See <a href="LICENSE">LICENSE</a> file for full details</em>
+</p>
+
+</div>
+
+<br>
+
+<!-- Visual Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br>
+
+<div align="center">
+
+### Built with care for the AI Academy Skills Program
+
+<p>
+<img src="https://img.shields.io/badge/Made_with-Markdown-000000?style=flat-square&logo=markdown&logoColor=white" />
+<img src="https://img.shields.io/badge/Powered_by-Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/For-Educators_&_Students-6366F1?style=flat-square&logo=academia&logoColor=white" />
+</p>
 
 ---
 
-**Ready to get started?** Head to [Class 1: Foundations](class-01-foundations/README.md) and begin your prompt engineering journey!
+**Ready to master prompt engineering?** Start with [Class 1: Foundations](./class-01-foundations/) today!
 
-**Teaching tomorrow?** Check out the [Class 1 Lesson Plan](class-01-foundations/lesson-plan.md) for a complete teaching guide.
+</div>

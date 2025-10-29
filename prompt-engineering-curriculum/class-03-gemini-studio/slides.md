@@ -1,61 +1,54 @@
 # Class 3: Gemini AI Studio Deep Dive + Meta-Prompting
 
-## Presentation Slides
-
 ---
 
-## Slide 1: Welcome to Class 3
-
-**Gemini AI Studio Deep Dive + Meta-Prompting**
+## Gemini AI Studio Deep Dive + Meta-Prompting
 
 From Using Prompts → Building Systems
 
-**Today You'll Learn:**
-- Navigate Gemini AI Studio like a pro
+Topics covered:
+- Navigate Gemini AI Studio
 - Create reusable prompt systems
 - Use meta-prompting to create better prompts
-- Build your personal prompt library
+- Build personal prompt library
 
 ---
 
-## Slide 2: The Journey So Far
+## The Journey So Far
 
-**Class 1:** Foundations
+**Class 1: Foundations**
 - The four components (Role, Context, Task, Format)
 - Role-based prompting
 - Context engineering
 
-**Class 2:** Advanced Techniques
+**Class 2: Advanced Techniques**
 - Multi-step prompting
 - Few-shot prompting
 - Negative prompting and constraints
 
-**Class 3 (Today):** Building Systems
+**Class 3 (Today): Building Systems**
 - Moving from one-off prompts to reusable tools
-- Creating your personal AI learning toolkit
+- Creating personal AI learning toolkit
 
 ---
 
-## Slide 3: The Repetition Problem
+## The Repetition Problem
 
-**Have you noticed?**
-
-You keep typing the same things:
+Common issue:
+Repeatedly typing the same information:
 - "Act as a math tutor..."
 - "I'm a 9th grader learning..."
 - "Don't give me the answer, guide my thinking..."
 
-**Every. Single. Time.**
+**Solution:** Save and systematize
 
-**What if you could save that?**
-
-What if the AI remembered your preferences?
-
-What if you could build SYSTEMS instead of one-off prompts?
+Benefits:
+- AI remembers preferences
+- Build SYSTEMS instead of one-off prompts
 
 ---
 
-## Slide 4: Today's Big Idea
+## The Shift
 
 **FROM:**
 Individual prompts for individual problems
@@ -65,14 +58,14 @@ Individual prompts for individual problems
 Reusable systems for ongoing learning
 "Here's my personal learning assistant for all algebra"
 
-**The Shift:**
+**Evolution:**
 Consumer → Creator
 User → Builder
 Prompt → System
 
 ---
 
-## Slide 5: What is Gemini AI Studio?
+## What is Gemini AI Studio?
 
 **Regular Gemini** (gemini.google.com)
 - Simple chat interface
@@ -88,11 +81,11 @@ Prompt → System
 - Structured outputs
 - Long context (1M tokens)
 
-**Think:** Gemini = Calculator | AI Studio = Scientific Calculator with programmable memory
+**Analogy:** Gemini = Calculator | AI Studio = Scientific Calculator with programmable memory
 
 ---
 
-## Slide 6: When to Use What?
+## When to Use What?
 
 **Use Regular Gemini for:**
 - Quick questions
@@ -107,11 +100,9 @@ Prompt → System
 - Long document analysis
 - Specific response formats
 
-**Today = AI Studio Deep Dive**
-
 ---
 
-## Slide 7: AI Studio Interface Tour
+## AI Studio Interface Components
 
 **Left Sidebar:**
 - New chat
@@ -119,18 +110,18 @@ Prompt → System
 - Prompt library
 
 **Main Area:**
-- Chat interface (familiar!)
+- Chat interface
 - Message history
 
-**Right Panel (THE POWER ZONE):**
-- System instructions ⭐
-- Model selector ⭐
+**Right Panel (Configuration Zone):**
+- System instructions
+- Model selector
 - Temperature & settings
 - Advanced options (JSON mode, etc.)
 
 ---
 
-## Slide 8: The Three Gemini 2.5 Models
+## The Three Gemini 2.5 Models
 
 **Gemini 2.5 Pro**
 - Most powerful reasoning
@@ -138,7 +129,7 @@ Prompt → System
 - Slower but deepest
 - Use for: Hard problems, essay analysis, research
 
-**Gemini 2.5 Flash** ⭐ Most Common
+**Gemini 2.5 Flash** (Most Common)
 - Fast and capable
 - Great balance
 - Use for: Most homework, explanations, practice
@@ -148,11 +139,11 @@ Prompt → System
 - Good for simple tasks
 - Use for: Quick facts, vocabulary, simple questions
 
-**Pro tip:** Start with Flash, move to Pro when stuck
+**Tip:** Start with Flash, move to Pro when stuck
 
 ---
 
-## Slide 9: System Instructions Explained
+## System Instructions Explained
 
 **What are they?**
 Special prompts that apply to EVERY message in the conversation
@@ -169,9 +160,9 @@ System instruction = Program your GPS preferences for all trips
 
 ---
 
-## Slide 10: Without System Instructions
+## Without System Instructions
 
-**Every message needs context:**
+Every message needs context:
 
 ```
 You: "Help me with algebra"
@@ -186,13 +177,13 @@ AI: [might forget the approach]
 You: [remind AI again]
 ```
 
-**Frustrating! Repetitive!**
+**Issue:** Frustrating and repetitive
 
 ---
 
-## Slide 11: With System Instructions
+## With System Instructions
 
-**Set once, works forever:**
+Set once, works forever:
 
 **System Instruction:**
 "You are a patient algebra tutor for 9th graders. Use Socratic questioning. Never give direct answers. Guide thinking with questions."
@@ -208,11 +199,11 @@ You: "And this..."
 AI: [continues consistently]
 ```
 
-**Consistent! Efficient!**
+**Result:** Consistent and efficient
 
 ---
 
-## Slide 12: Anatomy of System Instructions
+## Anatomy of System Instructions
 
 **5 Key Components:**
 
@@ -233,13 +224,12 @@ AI: [continues consistently]
 
 ---
 
-## Slide 13: System Instruction Example
+## System Instruction Example
 
 ```
 You are an expert biology tutor for 10th grade students.
 
-You work with students learning foundational biology
-concepts.
+You work with students learning foundational biology concepts.
 
 Your teaching approach:
 - Start with what students know
@@ -261,7 +251,7 @@ Format:
 
 ---
 
-## Slide 14: Building Subject-Specific Systems
+## Building Subject-Specific Systems
 
 **Math Helper Example:**
 
@@ -285,7 +275,7 @@ Rules:
 
 ---
 
-## Slide 15: Saving & Organizing
+## Saving & Organizing
 
 **How to save system instructions:**
 
@@ -308,15 +298,15 @@ Rules:
 
 ---
 
-## Slide 16: What is Meta-Prompting?
+## What is Meta-Prompting?
 
-**Meta-Prompting:**
+**Definition:**
 Using AI to help you create, improve, or analyze prompts
 
 **The Levels:**
 - Level 1: Use AI to solve problems
 - Level 2: Use AI to help you learn
-- Level 3: Use AI to help you use AI better ⭐ META!
+- Level 3: Use AI to help you use AI better (META)
 
 **Why it's powerful:**
 - AI understands effective prompts
@@ -324,11 +314,9 @@ Using AI to help you create, improve, or analyze prompts
 - Identifies weaknesses
 - Generates templates
 
-**You're becoming a Level 3 user!**
-
 ---
 
-## Slide 17: Types of Meta-Prompts
+## Types of Meta-Prompts
 
 **Type 1: Prompt Generation**
 "Help me create a prompt for [situation]"
@@ -344,9 +332,9 @@ Using AI to help you create, improve, or analyze prompts
 
 ---
 
-## Slide 18: Meta-Prompt Example 1 - Generation
+## Meta-Prompt Example 1: Generation
 
-**You want to create a chemistry homework helper.**
+**Goal:** Create a chemistry homework helper
 
 **Meta-Prompt:**
 ```
@@ -364,13 +352,13 @@ Format as a complete system instruction I can copy
 into AI Studio.
 ```
 
-**Result:** AI generates a ready-to-use system instruction!
+**Result:** AI generates a ready-to-use system instruction
 
 ---
 
-## Slide 19: Meta-Prompt Example 2 - Improvement
+## Meta-Prompt Example 2: Improvement
 
-**Your prompt is okay but not great.**
+**Goal:** Improve existing prompt
 
 **Meta-Prompt:**
 ```
@@ -391,9 +379,9 @@ prompt and improve it to:
 
 ---
 
-## Slide 20: Meta-Prompt Example 3 - Template
+## Meta-Prompt Example 3: Template
 
-**You need reusable prompts for similar tasks.**
+**Goal:** Create reusable template
 
 **Meta-Prompt:**
 ```
@@ -409,11 +397,11 @@ The template should:
 Format with [BRACKETS] for parts I'll customize.
 ```
 
-**Result:** Fill-in-the-blank template for all poems!
+**Result:** Fill-in-the-blank template for all poems
 
 ---
 
-## Slide 21: The Meta-Prompting Workflow
+## The Meta-Prompting Workflow
 
 **Step 1: Identify the need**
 What help do I need repeatedly?
@@ -431,7 +419,7 @@ Add to library, use across subjects
 
 ---
 
-## Slide 22: Building Your Prompt Library
+## Building Your Prompt Library
 
 **What is a prompt library?**
 Your organized collection of reusable prompts and system instructions
@@ -443,13 +431,11 @@ Your organized collection of reusable prompts and system instructions
 - Easy to share
 - Track what works
 
-**Think:** Toolbox where you know exactly which tool to grab for each job
+**Concept:** Toolbox where you know exactly which tool to grab for each job
 
 ---
 
-## Slide 23: Library Organization - Method 1
-
-**By Subject:**
+## Library Organization: By Subject
 
 ```
 My Prompt Library/
@@ -474,9 +460,7 @@ My Prompt Library/
 
 ---
 
-## Slide 24: Library Organization - Method 2
-
-**By Purpose/Function:**
+## Library Organization: By Purpose
 
 ```
 My Prompt Library/
@@ -500,12 +484,12 @@ My Prompt Library/
 
 ---
 
-## Slide 25: Documenting Your Prompts
+## Documenting Your Prompts
 
 **For each prompt, document:**
 
 **Essential:**
-- Name (descriptive!)
+- Name (descriptive)
 - Purpose (when to use)
 - Subject/Grade
 - The prompt text
@@ -520,7 +504,7 @@ My Prompt Library/
 
 ---
 
-## Slide 26: Documentation Template
+## Documentation Template
 
 ```
 NAME: Algebra Problem-Solving Coach
@@ -549,7 +533,7 @@ LAST UPDATED: October 2025
 
 ---
 
-## Slide 27: Your Starter Library
+## Your Starter Library
 
 **Core 5 for Most Students:**
 
@@ -568,11 +552,11 @@ LAST UPDATED: October 2025
 5. **Work Checker**
    Feedback without giving answers
 
-**Start here, expand over time!**
+**Start here, expand over time**
 
 ---
 
-## Slide 28: Building vs. Using - The Shift
+## Building vs. Using - The Shift
 
 **Before (Classes 1-2):**
 - Create prompts for immediate needs
@@ -584,11 +568,11 @@ LAST UPDATED: October 2025
 - Create tools that work repeatedly
 - Focus on infrastructure for all future work
 
-**This is a MAJOR upgrade in how you work with AI!**
+**This is a MAJOR upgrade in how you work with AI**
 
 ---
 
-## Slide 29: The Power of Systems
+## The Power of Systems
 
 **One-off prompt:**
 Takes 3 minutes to write each time
@@ -606,7 +590,7 @@ Compound returns on effort
 
 ---
 
-## Slide 30: Hands-On Practice - What You'll Do
+## Practice Exercises
 
 **Exercise 1: Create System Instructions (7 min)**
 Build 2-3 subject-specific systems, test, save
@@ -621,47 +605,7 @@ Start organizing your personal prompt collection
 
 ---
 
-## Slide 31: Practice Tips
-
-**Do:**
-- Test everything with real homework
-- Start simple, refine later
-- Save what works
-- Delete what doesn't
-- Ask for help when stuck
-- Experiment and iterate
-
-**Don't:**
-- Aim for perfection
-- Create prompts you won't use
-- Copy without customizing
-- Give up after first try
-- Overcomplicate
-
-**Remember: Good enough systems you use > Perfect systems you don't**
-
----
-
-## Slide 32: Common Challenges & Solutions
-
-**"System instruction isn't working"**
-→ Too long? Too vague? Test with specific examples
-
-**"I don't know what prompts to create"**
-→ What homework do you have this week? Start there
-
-**"Can't access AI Studio"**
-→ Create system instructions in regular Gemini, save externally
-
-**"My library feels overwhelming"**
-→ Start with 3 prompts. Add more gradually
-
-**"Responses still aren't helpful"**
-→ Use meta-prompting to diagnose the problem!
-
----
-
-## Slide 33: Academic Integrity Reminder
+## Academic Integrity Reminder
 
 **Your systems should help you learn, not shortcut learning.**
 
@@ -676,26 +620,11 @@ Start organizing your personal prompt collection
 - Understanding > Answers
 - Your teacher can tell when you didn't actually learn
 
-**Build systems that make you smarter!**
+**Build systems that make you smarter**
 
 ---
 
-## Slide 34: Real Student Success Stories
-
-**Example 1: Math Student**
-"I built a system instruction for calculus. Now instead of struggling alone for an hour, I get unstuck in 10 minutes AND understand what I'm doing. My test scores went up."
-
-**Example 2: English Student**
-"My essay brainstorming prompt saves me 30 minutes every time I have a writing assignment. I have better ideas and they're actually my own ideas, just better organized."
-
-**Example 3: Multi-Subject Student**
-"I have 6 saved systems in AI Studio, one for each class. It's like having a personal tutor for every subject who knows exactly how I learn."
-
-**This could be you!**
-
----
-
-## Slide 35: Homework - Build Your System
+## Homework: Build Your System
 
 **Part 1: Expand Library (15-20 min)**
 - Create system instructions for 5+ subjects/purposes
@@ -708,10 +637,6 @@ Start organizing your personal prompt collection
 - Use meta-prompting to improve it
 - Test the improved version
 - Document before/after
-
----
-
-## Slide 36: Homework - Continued
 
 **Part 3: Real-World Testing (Ongoing)**
 - Use your systems for actual homework this week
@@ -730,9 +655,9 @@ Write 4-5 sentences:
 
 ---
 
-## Slide 37: Preview - Class 4
+## Preview: Class 4
 
-**Next Class: Integration & Application**
+**Integration & Application**
 
 Bring everything together:
 - Use ALL techniques for complex projects
@@ -748,7 +673,7 @@ Bring everything together:
 
 ---
 
-## Slide 38: Key Takeaways
+## Key Takeaways
 
 **Today you learned:**
 
@@ -762,13 +687,11 @@ Bring everything together:
 You're not just an AI user anymore.
 You're an AI system builder.
 
-**That's a serious upgrade!**
-
 ---
 
-## Slide 39: Before You Go
+## Remember
 
-**Three Things to Remember:**
+**Three Things:**
 
 1. **Start small**
    3-5 core prompts, expand over time
@@ -783,205 +706,4 @@ You're an AI system builder.
 
 ---
 
-## Slide 40: You're Ready!
-
-**You now have the skills to:**
-- Navigate AI Studio confidently
-- Create reusable learning systems
-- Use meta-prompting to improve your prompts
-- Build and maintain a personal prompt library
-- Transform how you use AI for learning
-
-**Class 1:** Learned to prompt
-**Class 2:** Learned advanced techniques
-**Class 3:** Learned to build systems
-
-**Next:** Bring it all together for real-world success!
-
-**Questions?**
-
----
-
-## Additional Slides for Q&A or Extension
-
----
-
-## Extension Slide 1: Advanced Features Preview
-
-**JSON Mode / Structured Outputs**
-Get responses in consistent, parseable formats
-
-**Long Context Window**
-Process entire textbooks (1M tokens)
-
-**Multimodal**
-Upload and analyze images, diagrams, videos
-
-**Vibe Code**
-Creative coding assistance
-
-**Temperature Control**
-Adjust creativity vs. consistency
-
-**We focused on foundations today. Explore these as you advance!**
-
----
-
-## Extension Slide 2: Optimization Tips
-
-**System Instruction Optimization:**
-- Be specific, not verbose
-- Test with edge cases
-- Update based on real use
-- Version control (keep old versions)
-- A/B test different approaches
-
-**Library Management:**
-- Review quarterly, delete unused
-- Note most-used prompts
-- Create variations for similar tasks
-- Share with study partners
-- Cross-reference related prompts
-
----
-
-## Extension Slide 3: Collaboration Ideas
-
-**With Study Partners:**
-- Share effective system instructions
-- Co-create prompts for shared classes
-- Peer review each other's libraries
-- Troubleshoot together
-- Build class-wide prompt collection
-
-**With Teachers:**
-- Ask if they have recommendations
-- Share what's working (with permission)
-- Align with class expectations
-- Get feedback on academic integrity
-- Contribute to school AI guidelines
-
----
-
-## Extension Slide 4: Model Selection Deep Dive
-
-**When to use Pro:**
-- Complex multi-part problems
-- Deep analysis needed
-- Research synthesis
-- When Flash gives superficial answers
-- Final paper review
-
-**When to use Flash:** (Most Common)
-- Regular homework help
-- Study sessions
-- Practice problems
-- Concept explanations
-- Test prep
-
-**When to use Flash-Lite:**
-- Quick factual lookups
-- Vocabulary definitions
-- Simple calculations
-- When speed matters most
-- Preliminary exploration
-
-**Pro Tip:** Start with Flash, escalate to Pro if needed
-
----
-
-## Extension Slide 5: Troubleshooting System Instructions
-
-**Too Long?**
-- Break into shorter, focused systems
-- Remove redundant information
-- Keep under 500 words if possible
-
-**Too Vague?**
-- Add specific examples of desired behavior
-- Define key terms
-- Be explicit about constraints
-
-**Not Working?**
-- Test with very specific questions
-- Use meta-prompting to diagnose
-- Start from scratch with clearer intent
-- Check if regular prompting would work better
-
----
-
-## Extension Slide 6: Your AI Learning Journey
-
-**Phase 1 (Classes 1-2):** Learning to Communicate
-Understanding how to talk to AI effectively
-
-**Phase 2 (Class 3 - Today):** Building Infrastructure
-Creating systems and tools
-
-**Phase 3 (Class 4 - Next):** Integration & Mastery
-Combining everything for real-world excellence
-
-**Phase 4 (Beyond):** Continuous Improvement
-Refining your practice over time
-
-**You're in Phase 2. Almost there!**
-
----
-
-## Backup Slide: If AI Studio Access Fails
-
-**Don't worry! You can still build systems.**
-
-**Alternative Approach:**
-1. Create system instructions in a Google Doc
-2. Use meta-prompting in regular Gemini
-3. Save prompts in your preferred note-taking app
-4. Copy/paste system instructions at start of chats
-5. Set up AI Studio access later
-
-**The concepts matter more than the tool.**
-**You're learning system thinking—that's what counts.**
-
----
-
-**End of Slide Deck**
-
----
-
-## Presentation Notes for Teachers
-
-### Timing Guide
-- Slides 1-10: First 20 minutes (intro + AI Studio tour)
-- Slides 11-20: Next 15 minutes (system instructions)
-- Slides 21-30: Next 15 minutes (meta-prompting + libraries)
-- Slides 31-40: Final 20 minutes (practice + homework)
-- Extension slides: Use as needed for questions or advanced students
-
-### Interactive Moments
-- Slide 3: Show of hands - who's retyped the same prompt?
-- Slide 8: Quick poll - which model have you used?
-- Slide 16: Define "meta" together
-- Slide 27: Students identify their core 5
-
-### Live Demos
-- Slide 11: Show without system instructions
-- Slide 12: Show with system instructions (same questions)
-- Slide 18: Run meta-prompt for generation
-- Slide 19: Run meta-prompt for improvement
-
-### Customization Notes
-- Add your own examples in slides 18-20
-- Replace slide 34 with your students' success stories (with permission)
-- Adjust slide 27 (starter library) based on your students' subjects
-- Add school-specific resources to extension slides
-
-### Pacing Tips
-- Can skip extension slides if short on time
-- Slides 23-26 can be condensed if students grasp organization quickly
-- Extend hands-on practice time by cutting presentation if needed
-- Backup slide useful if tech issues arise
-
-### Differentiation
-- 7th grade: Spend more time on slides 11-15 (system instructions), provide templates
-- 9th grade: Standard pace through all slides
-- 11th grade: Faster through basics, extend time on slides 16-20 (meta-prompting)
+# End of Slides
